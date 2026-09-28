@@ -455,7 +455,8 @@ try {
   // shadow (that is what makes a mountain read as a mountain, not a flat blob), shaded
   // by elevation forested -> rock -> snow. Stylised and clean, like the E6 backdrop.
   function mountainRange(){
-    const A=200, RN=30, rIn=820, rOut=3600, maxH=BACKDROP.height;
+    const A=200, RN=30, rIn=820, rOut=3600;
+    const maxH=(BACKDROP.type==='flat') ? Math.max(BACKDROP.height||0, 95) : BACKDROP.height;   // flat links get a low dune horizon, never a dark -60 seam
     const geo=new THREE.BufferGeometry(), pos=[], col=[], idx=[];
     const h2=(x,y)=>{ const s=Math.sin(x*12.9898+y*78.233)*43758.5453; return s-Math.floor(s); };
     const vn=(x,y)=>{ const xi=Math.floor(x),yi=Math.floor(y),xf=x-xi,yf=y-yi;
