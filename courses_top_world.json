@@ -1,0 +1,3281 @@
+{
+ "generated": "2026-09-10",
+ "sources": [
+  "https://www.golfdigest.com/story/worlds-100-greatest-golf-courses (World's 100 Greatest Courses 2026-2027 - ranks courses OUTSIDE the United States)",
+  "https://golf.com/travel/courses/top-100-courses-world-2025-26/ (GOLF Magazine Top 100 Courses in the World 2025-26)",
+  "https://www.top100golfcourses.com/top-100-golf-courses-of-the-world (Top100GolfCourses.com World Top 100 - list is 100 deep)",
+  "https://www.golfdigest.com/story/americas-100-greatest-golf-courses-ranking",
+  "https://golf.com/travel/best-golf-courses-ireland-scotland-england/ (GOLF Magazine Top 100 UK & Ireland)",
+  "https://golf.com/travel/top-100-courses-asia-pacific-ranking/ (GOLF Magazine Top 100 Asia-Pacific)"
+ ],
+ "notes": "Golf Digest publishes its 'World's 100 Greatest' as courses outside the U.S.; its U.S. courses live in a separate 'America's 100 Greatest' list, so U.S. courses here show GolfDigest absent even when Golf Digest ranks them domestically. Top100GolfCourses.com's world ranking is exactly 100 entries deep (does not extend to 150-200).",
+ "courses": [
+  {
+   "name": "Ballybunion (Old)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Barnbougle Dunes",
+   "location": "Australia - Tasmania",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cabot Cliffs",
+   "location": "Canada - Nova Scotia",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cabot Highlands (Castle Stuart)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cape Kidnappers",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cape Wickham",
+   "location": "Australia - Tasmania",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Carnoustie (Championship)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cruden Bay",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Hirono",
+   "location": "Japan",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kawana (Fuji)",
+   "location": "Japan",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kingsbarns",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Kingston Heath",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Lahinch (Old)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Morfontaine",
+   "location": "France",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Muirfield",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "New South Wales",
+   "location": "Australia - New South Wales",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "North Berwick (West Links)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Old Course at St Andrews",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Portmarnock (Championship)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Prestwick",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Birkdale",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal County Down (Championship)",
+   "location": "Northern Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Dornoch (Championship)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Hague (Koninklijke Haagsche)",
+   "location": "Netherlands",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Lytham & St Annes",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Melbourne (West)",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Portrush (Dunluce)",
+   "location": "Northern Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal St George's",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "St George's Hill",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "St Patrick's Links (Rosapenna)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Sunningdale (New)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Sunningdale (Old)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Swinley Forest",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Tara Iti",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Te Arai (North)",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Te Arai (South)",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Turnberry (Ailsa)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Utrecht De Pan",
+   "location": "Netherlands",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ardfin",
+   "location": "Scotland",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Augusta National",
+   "location": "USA - Georgia",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Ballyneal",
+   "location": "USA - Colorado",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Bandon Dunes",
+   "location": "USA - Oregon",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Bandon Trails",
+   "location": "USA - Oregon",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Bethpage (Black)",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cabot Links",
+   "location": "Canada - Nova Scotia",
+   "lists": [
+    "GolfDigest",
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Cabot Saint Lucia (Point Hardy)",
+   "location": "St. Lucia",
+   "lists": [
+    "GolfDigest",
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "California Golf Club of San Francisco",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Camargo",
+   "location": "USA - Ohio",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "CapRock Ranch",
+   "location": "USA - Nebraska",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": false
+  },
+  {
+   "name": "Casa de Campo (Teeth of the Dog)",
+   "location": "Dominican Republic",
+   "lists": [
+    "GolfDigest",
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Chicago Golf Club",
+   "location": "USA - Illinois",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Crystal Downs",
+   "location": "USA - Michigan",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cypress Point",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Fishers Island",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Friar's Head",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ganton",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Garden City",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Inverness Club",
+   "location": "USA - Ohio",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Jasper Park Lodge",
+   "location": "Canada - Alberta",
+   "lists": [
+    "GolfDigest",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Lofoten Links",
+   "location": "Norway",
+   "lists": [
+    "GolfMag",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Los Angeles Country Club (North)",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Machrihanish",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Maidstone",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Merion (East)",
+   "location": "USA - Pennsylvania",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Myopia Hunt Club",
+   "location": "USA - Massachusetts",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Naruo",
+   "location": "Japan",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "National Golf Links of America",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Oak Hill (East)",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Oakland Hills (South)",
+   "location": "USA - Michigan",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Oakmont",
+   "location": "USA - Pennsylvania",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Old Town Club",
+   "location": "USA - North Carolina",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pacific Dunes",
+   "location": "USA - Oregon",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Paraparaumu Beach",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Peachtree",
+   "location": "USA - Georgia",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pebble Beach",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Pine Valley",
+   "location": "USA - New Jersey",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Pinehurst No. 2",
+   "location": "USA - North Carolina",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "note": "researched - not yet built",
+   "osm_buildable": true
+  },
+  {
+   "name": "Prairie Dunes",
+   "location": "USA - Kansas",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Real Club Valderrama",
+   "location": "Spain",
+   "lists": [
+    "GolfDigest",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Riviera",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Rock Creek Cattle Company",
+   "location": "USA - Montana",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Aberdeen (Balgownie)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Cinque Ports",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Liverpool",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Melbourne (East)",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Porthcawl",
+   "location": "Wales",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Royal Troon (Old)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "GolfMagUKI"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Rye (Old)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "San Francisco Golf Club",
+   "location": "USA - California",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Sand Hills",
+   "location": "USA - Nebraska",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Seminole",
+   "location": "USA - Florida",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Shanqin Bay",
+   "location": "China",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Shinnecock Hills",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Shoreacres",
+   "location": "USA - Illinois",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Sleepy Hollow",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Somerset Hills",
+   "location": "USA - New Jersey",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "South Cape Owners Club",
+   "location": "South Korea",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "St Enodoc (Church)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "St George's Golf & Country Club (Ontario)",
+   "location": "Canada - Ontario",
+   "lists": [
+    "GolfDigest",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "The Lido (Sand Valley)",
+   "location": "USA - Wisconsin",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Trump International Golf Links (Old)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Victoria (Australia)",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Winged Foot (West)",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Woodhall Spa (Hotchkin)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMag",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Yas Links",
+   "location": "UAE",
+   "lists": [
+    "GolfDigest",
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Adare Manor",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Baltusrol (Lower)",
+   "location": "USA - New Jersey",
+   "lists": [
+    "GolfMag",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Banff Springs",
+   "location": "Canada - Alberta",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Barnbougle Lost Farm",
+   "location": "Australia - Tasmania",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Brittas Bay",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cabo del Sol (Cove Club)",
+   "location": "Mexico",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cape Breton Highlands Links",
+   "location": "Canada - Nova Scotia",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Capilano",
+   "location": "Canada - British Columbia",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Carne (Wild Atlantic Dunes)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Childress Hall (Upper)",
+   "location": "USA - Texas",
+   "lists": [
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": false
+  },
+  {
+   "name": "County Sligo (Rosses Point)",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Diamante (Dunes)",
+   "location": "Mexico",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Eastward Ho!",
+   "location": "USA - Massachusetts",
+   "lists": [
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Gleneagles (King's)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Gullane (No. 1)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hamilton Golf & Country Club",
+   "location": "Canada - Ontario",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Jack's Point",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kauri Cliffs",
+   "location": "New Zealand",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kiawah Island (Ocean)",
+   "location": "USA - South Carolina",
+   "lists": [
+    "GolfMag",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Les Bordes (New)",
+   "location": "France",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": false
+  },
+  {
+   "name": "Loch Lomond",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Metropolitan",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Mid Ocean Club",
+   "location": "Bermuda",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "National Golf Club of Canada",
+   "location": "Canada - Ontario",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Nine Bridges",
+   "location": "South Korea",
+   "lists": [
+    "GolfMag",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ocean Dunes",
+   "location": "Australia - Tasmania",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ohoopee Match Club",
+   "location": "USA - Georgia",
+   "lists": [
+    "GolfMag",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Old Head of Kinsale",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "PGA Golf Club An Ying (Yangtze Dunes)",
+   "location": "China",
+   "lists": [
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": false
+  },
+  {
+   "name": "Panmure",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Peninsula Kingswood (North)",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Portstewart (Strand)",
+   "location": "Northern Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Punta Espada",
+   "location": "Dominican Republic",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Adelaide",
+   "location": "Australia - South Australia",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal St David's",
+   "location": "Wales",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Santapazienza",
+   "location": "Brazil",
+   "lists": [
+    "Top100"
+   ],
+   "have": false,
+   "osm_buildable": false
+  },
+  {
+   "name": "Sentosa (Serapong)",
+   "location": "Singapore",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Southern Hills",
+   "location": "USA - Oklahoma",
+   "lists": [
+    "GolfMag",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "St Andrews Beach",
+   "location": "Australia - Victoria",
+   "lists": [
+    "Top100",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Country Club (Brookline)",
+   "location": "USA - Massachusetts",
+   "lists": [
+    "GolfMag"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "The National (Old)",
+   "location": "Australia - Victoria",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Renaissance Club",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Tokyo Golf Club",
+   "location": "Japan",
+   "lists": [
+    "GolfDigest",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Tralee",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Turnberry (King Robert the Bruce)",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Walton Heath (Old)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Waterville",
+   "location": "Ireland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Wentworth (West)",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "West Sussex",
+   "location": "England",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Western Gailes",
+   "location": "Scotland",
+   "lists": [
+    "GolfDigest",
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": true
+  },
+  {
+   "name": "Whistling Straits (Straits)",
+   "location": "USA - Wisconsin",
+   "lists": [
+    "Top100",
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": true
+  },
+  {
+   "name": "Winged Foot (East)",
+   "location": "USA - New York",
+   "lists": [
+    "GolfMag",
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Country Club: The Main Course",
+   "location": "Brookline, MA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Muirfield Village Golf Club",
+   "location": "Dublin, OH, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Shadow Creek",
+   "location": "North Las Vegas, NV, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Wade Hampton Golf Club",
+   "location": "Cashiers, NC, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Honors Course",
+   "location": "Ooltewah, TN, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pikewood National Golf Club",
+   "location": "Morgantown, WV, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Olympic Club: Lake",
+   "location": "San Francisco, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Alotian Club",
+   "location": "Roland, AR, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Congaree Golf Club",
+   "location": "Ridgeland, SC, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "TPC Sawgrass: Stadium",
+   "location": "Ponte Vedra Beach, FL, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Gozzer Ranch Golf and Lake Club",
+   "location": "Harrison, ID, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Erin Hills Golf Course",
+   "location": "Hartford, WI, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Castle Pines Golf Club",
+   "location": "Castle Rock, CO, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Sebonack Golf Club",
+   "location": "Southampton, NY, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": true,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Monterey Peninsula Country Club: Shore",
+   "location": "Pebble Beach, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "California Golf Club",
+   "location": "South San Francisco, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Nanea Golf Club",
+   "location": "Kailua Kona, HI, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Victoria National Golf Club",
+   "location": "Newburgh, IN, USA",
+   "lists": [
+    "GolfDigestAmerica",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cherry Hills Country Club",
+   "location": "Englewood, CO, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Interlachen Country Club",
+   "location": "Edina, MN, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Whispering Pines Golf Club",
+   "location": "Trinity, TX, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Congressional Country Club: Blue",
+   "location": "Bethesda, MD, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Calusa Pines Golf Club",
+   "location": "Naples, FL, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Estancia Club",
+   "location": "Scottsdale, AZ, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Valley Club of Montecito",
+   "location": "Santa Barbara, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Old Sandwich Golf Club",
+   "location": "Plymouth, MA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Medinah Country Club: No. 3",
+   "location": "Medinah, IL, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Quaker Ridge Golf Club",
+   "location": "Scarsdale, NY, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Spyglass Hill Golf Course",
+   "location": "Pebble Beach, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Monterey Peninsula Country Club: Dunes",
+   "location": "Pebble Beach, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Essex County Club",
+   "location": "Manchester, MA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kinloch Golf Club",
+   "location": "Manakin Sabot, VA, USA",
+   "lists": [
+    "GolfDigestAmerica",
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Oak Tree National",
+   "location": "Edmond, OK, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Old Macdonald",
+   "location": "Bandon, OR, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Scioto Country Club",
+   "location": "Columbus, OH, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ladera Golf Club",
+   "location": "Thermal, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Baltusrol Golf Club: Upper",
+   "location": "Springfield, NJ, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Quarry at La Quinta",
+   "location": "La Quinta, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Canyata Golf Club",
+   "location": "Marshall, IL, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Butler National Golf Club",
+   "location": "Oak Brook, IL, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hudson National Golf Club",
+   "location": "Croton On Hudson, NY, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Kittansett Club",
+   "location": "Marion, MA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Plainfield Country Club",
+   "location": "Edison, NJ, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Boston Golf Club",
+   "location": "Hingham, MA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pete Dye Golf Club",
+   "location": "Bridgeport, WV, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pasatiempo Golf Club",
+   "location": "Santa Cruz, CA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Valhalla Golf Club",
+   "location": "Louisville, KY, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Diamond Creek",
+   "location": "Banner Elk, NC, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Dallas National Golf Club",
+   "location": "Dallas, TX, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Milwaukee Country Club",
+   "location": "River Hills, WI, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Piping Rock Club",
+   "location": "Locust Valley, NY, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Crooked Stick Golf Club",
+   "location": "Carmel, IN, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Aronimink Golf Club",
+   "location": "Newtown Square, PA, USA",
+   "lists": [
+    "GolfDigestAmerica"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Portmarnock (Old)",
+   "location": "Dublin, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cruden Bay (Championship)",
+   "location": "Aberdeenshire, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "St. George's Hill (Red & Blue)",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Rye",
+   "location": "E. Sussex, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Castle Stuart",
+   "location": "Highland, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Askernish",
+   "location": "Inverness-shire, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Trump International Scotland",
+   "location": "Aberdeenshire, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal West Norfolk",
+   "location": "Norfolk, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Notts",
+   "location": "Nottinghamshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Silloth on Solway",
+   "location": "Cumbria, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Worlington & Newmarket",
+   "location": "Suffolk, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Woking",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Alwoodley",
+   "location": "W. Yorkshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "County Louth",
+   "location": "Louth, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Addington",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Formby",
+   "location": "Merseyside, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Enniscrone (Dunes)",
+   "location": "Sligo, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal North Devon",
+   "location": "Devon, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Island",
+   "location": "Dublin, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Nairn (Championship)",
+   "location": "Highland, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Burnham & Berrow (Championship)",
+   "location": "Somerset, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Saunton (East)",
+   "location": "Devon, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Berkshire (Red)",
+   "location": "Berkshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pennard",
+   "location": "S. Wales, Wales",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "St. Andrews (New)",
+   "location": "Fife, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Brora",
+   "location": "Highland, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Trump International Doonbeg",
+   "location": "Clare, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Carne (Wild Atlantic)",
+   "location": "Mayo, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Huntercombe",
+   "location": "Oxfordshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Ashdown Forest",
+   "location": "E. Sussex, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Southport & Ainsdale",
+   "location": "Merseyside, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hillside",
+   "location": "Merseyside, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Stoneham",
+   "location": "Hampshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hunstanton",
+   "location": "Norfolk, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hankley Common",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Broadstone",
+   "location": "Dorset, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "European Club",
+   "location": "Wicklow, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Golf House Club Elie",
+   "location": "Fife, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Walton Heath (New)",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Aberdovey",
+   "location": "Wales",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Old Head",
+   "location": "Cork, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Berkshire (Blue)",
+   "location": "Berkshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "New Zealand",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Machrie",
+   "location": "Argyll, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Rosapenna (Sandy Hills)",
+   "location": "Donegal, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Moortown",
+   "location": "W. Yorkshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Machrihanish Dunes",
+   "location": "Argyll, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Skibo Castle (Carnegie)",
+   "location": "Highland, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Worplesdon",
+   "location": "Surrey, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Dumbarnie Links",
+   "location": "Fife, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cleeve Hill",
+   "location": "Gloucestershire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Liphook",
+   "location": "Hampshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Delamere Forest",
+   "location": "Cheshire, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Fraserburgh",
+   "location": "Aberdeenshire, Scotland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Prince's",
+   "location": "Kent, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ballyliffin (Old)",
+   "location": "Donegal, Ireland",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Littlestone (Championship)",
+   "location": "Kent, England",
+   "lists": [
+    "GolfMagUKI"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ellerston",
+   "location": "Hunter Valley, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Himalayan",
+   "location": "Pokhara, Nepal",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The National (Moonah)",
+   "location": "Cape Schanck, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Yokohama (West)",
+   "location": "Yokohama, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The National (Gunnamatta)",
+   "location": "Cape Schanck, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kasumigaseki (East)",
+   "location": "Kawagoe, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Newcastle",
+   "location": "Fern Bay, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ono",
+   "location": "Ono, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hoiana Shores",
+   "location": "Quang Nam, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Abiko",
+   "location": "Abiko, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Lake Karrinyup",
+   "location": "Karrinyup, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Whistling Rock (Temple/Cocoon)",
+   "location": "Chuncheon, South Korea",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ayodhya",
+   "location": "Boh Talo, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Osaka",
+   "location": "Misaki, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Woodlands",
+   "location": "Mordialloc, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Mission Hills (Blackstone)",
+   "location": "Haikou, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kooyonga",
+   "location": "Lockleys, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Yarra Yarra",
+   "location": "Bentleigh, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Nikko",
+   "location": "Nikko, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Peninsula Kingswood (South)",
+   "location": "Frankston, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Stonehill",
+   "location": "Sam Khok, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Commonwealth",
+   "location": "Oakleigh South, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Pine Beach (Pine/Beach)",
+   "location": "Haenam, South Korea",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Ballyshear",
+   "location": "Tambon Bang Bo, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Titirangi",
+   "location": "Auckland, New Zealand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "FLC Quy Nhon (Ocean)",
+   "location": "Binh Dinh, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Bluffs Grand at Ho Tram",
+   "location": "Ria-Vung Tau, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Barwon Heads",
+   "location": "Barwon Heads, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "BRG Da Nang (Nicklaus)",
+   "location": "Da Nang, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Canberra",
+   "location": "Yarralumla, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Dunes at Shenzhou East",
+   "location": "Wanning, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Grange (West)",
+   "location": "Grange, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Lake Malaren (Masters)",
+   "location": "Shanghai, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Jagorawi (Old)",
+   "location": "Gunung Putri, Indonesia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Shanghai Links",
+   "location": "Shanghai, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Koga",
+   "location": "Koga, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Oarai",
+   "location": "Oarai, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Arrowtown",
+   "location": "Arrowtown, New Zealand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Shimonoseki",
+   "location": "Shimonoseki, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "FLC Quang Binh (Ocean Dunes)",
+   "location": "Hai Ninh, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Myotha National",
+   "location": "Sagaing, Myanmar",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Jack Nicklaus GC Korea",
+   "location": "Incheon, South Korea",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Lakes",
+   "location": "Eastlakes, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Amata Spring",
+   "location": "Nong Mai Daeng, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Victoria Sri Lanka",
+   "location": "Digana, Sri Lanka",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Dunes",
+   "location": "Rye, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Hokkaido Classic",
+   "location": "Abira, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "13th Beach (Beach)",
+   "location": "Barwon Heads, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Waverley",
+   "location": "Waverley, New Zealand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Cathedral Lodge",
+   "location": "Thornton, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Lonsdale Links",
+   "location": "Point Lonsdale, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Kasumigaseki (West)",
+   "location": "Kawagoe, Japan",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Saujana (Palm)",
+   "location": "Petaling Jaya, Malaysia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Laguna Lang Co",
+   "location": "Thua Thien Hue, Vietnam",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Haesley Nine Bridges",
+   "location": "Yeoju-gun, South Korea",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Dunes at Shenzhou West",
+   "location": "Wanning, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Blue Canyon (Canyon)",
+   "location": "Mai Khao, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Hong Kong (Composite)",
+   "location": "Sheung Shui, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Glenelg",
+   "location": "Novar Gardens, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Port Fairy",
+   "location": "Port Fairy, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Nicklaus Club Beijing",
+   "location": "Beijing, China",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Royal Queensland",
+   "location": "Brisbane, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "The Australian",
+   "location": "Rosebery, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Anyang",
+   "location": "Gunpo-Si, South Korea",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Joondalup (Quarry/Dune)",
+   "location": "Connolly, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Siam (Old)",
+   "location": "Tambon Pong, Thailand",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  },
+  {
+   "name": "Portsea",
+   "location": "Portsea, Australia",
+   "lists": [
+    "GolfMagAsiaPac"
+   ],
+   "have": false,
+   "osm_buildable": "unknown"
+  }
+ ]
+}
