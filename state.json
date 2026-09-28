@@ -162,5 +162,28 @@
  "St. George's Hill (Red & Blue)": {
   "status": "BUILT",
   "seeded": true
+ },
+ "Kawana (Fuji)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort"
+ },
+ "Muirfield": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass"
+ },
+ "North Berwick (West Links)": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass"
+ },
+ "Old Course at St Andrews": {
+  "status": "CRAWL_FAIL"
+ },
+ "Royal Birkdale": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort"
  }
 }

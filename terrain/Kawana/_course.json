@@ -1,0 +1,162 @@
+{
+ "course": "Kawana",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 3,
+   "length": 61.6
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 3,
+   "length": 64.9
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 3,
+   "length": 63.1
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 3,
+   "length": 81.2
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 3,
+   "length": 91.0
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 3,
+   "length": 80.1
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 3,
+   "length": 78.9
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 3,
+   "length": 66.3
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 3,
+   "length": 89.1
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 3,
+   "length": 74.7
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 3,
+   "length": 89.5
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 80.1
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 3,
+   "length": 69.6
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 3,
+   "length": 68.2
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 4,
+   "length": 298.2
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 3,
+   "length": 106.9
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 3,
+   "length": 72.2
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 3,
+   "length": 91.7
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 3.3,
+  "wind_dir_deg": 254,
+  "rain": 0.0,
+  "wetness": 0.06
+ },
+ "palette": {
+  "grassFair": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "grassRough": [
+   0.18,
+   0.38,
+   0.12
+  ],
+  "rock": [
+   0.34,
+   0.34,
+   0.33
+  ],
+  "deep": 1192007,
+  "shallow": 3833762,
+  "fairway": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "rough": [
+   0.18,
+   0.38,
+   0.12
+  ]
+ },
+ "tree_profile": [
+  0.3,
+  0.6,
+  0.02,
+  0.08,
+  0.0
+ ],
+ "backdrop": {
+  "type": "forest",
+  "height": 130,
+  "snow": false
+ },
+ "links": false
+}

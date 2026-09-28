@@ -1,1 +1,9 @@
 [09-28 11:07] CLOUD BUILD START: 334 targets, 13 built, 322 to attempt, budget 1s
+[09-28 15:19] CLOUD BUILD START: 334 targets, 13 built, 293 to attempt, budget 18000s
+[09-28 16:33] BUILT        Kawana (Fuji)  [parkland]  (best-effort)
+[09-28 17:18] BUILT        Muirfield  [parkland]  (PASS)
+[09-28 17:31] BUILT        North Berwick (West Links)  [links]  (PASS)
+[09-28 19:35] CRAWL_FAIL   Old Course at St Andrews
+[09-28 20:43] BUILT        Royal Birkdale  [parkland]  (best-effort)
+[09-28 20:43] TIME BUDGET HIT — stopping cleanly at +4 built this run (resumes next run)
+[09-28 20:43] RUN DONE: +4 built, 1 failed this run. Total terrain courses now: 4
