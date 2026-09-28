@@ -1,7 +1,7 @@
 name: build-courses
 on:
   schedule:
-    - cron: "0 */6 * * *"    # every 6 hours (GitHub's servers, no app needed)
+    - cron: "0 */6 * * *"    # every 6 hours on GitHub's servers (no app needed)
   workflow_dispatch: {}
 concurrency:
   group: course-build
@@ -21,7 +21,7 @@ jobs:
         run: |
           python -m pip install -U pip
           pip install -r requirements.txt
-          pip install rasterio || echo "rasterio unavailable — Scotland LIDAR skipped, SRTM fallback used"
+          pip install rasterio || echo "rasterio unavailable — SRTM fallback used"
       - name: Build courses (time-budgeted, resumable)
         env:
           TIME_BUDGET: "18000"
@@ -33,10 +33,32 @@ jobs:
           git config user.email "actions@github.com"
           git add terrain courses state.json build_log.txt 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            n=$(ls terrain 2>/dev/null | wc -l)
-            git commit -m "build: course terrain + sims (${n} total)"
+            n=$(ls courses/*.html 2>/dev/null | wc -l)
+            git commit -m "build: ${n} course sims"
             git pull --rebase --autostash origin master || true
             git push origin HEAD:master
           else
             echo "no new courses this run"
+          fi
+      - name: Sync sims to RunPod repo (triggers image rebuild)
+        if: always()
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          new=$(ls courses/*.html 2>/dev/null | wc -l)
+          if [ -z "$SYNC_TOKEN" ]; then echo "no SYNC_TOKEN secret — skipping sync"; exit 0; fi
+          if [ "$new" -eq 0 ]; then echo "no sims to sync yet"; exit 0; fi
+          git clone --depth 1 "https://x-access-token:${SYNC_TOKEN}@github.com/kidcohen/golf-stream.git" gs
+          cp courses/*.html gs/
+          python sync_index.py gs
+          cd gs
+          git config user.name "golf-builder"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "sync: ${new} course sims from builder"
+            git push
+            echo "synced ${new} sims -> golf-stream (RunPod image will rebuild)"
+          else
+            echo "golf-stream already up to date"
           fi
