@@ -83,9 +83,10 @@ def classify(name, loc):
     t = (name + " " + (loc or "")).lower()
     if any(k in t for k in ["melbourne","sandbelt","kingston heath","victoria golf"]): return "sandbelt"
     if any(k in t for k in ["desert","arizona","nevada","dubai","scottsdale","las vegas","new mexico"]): return "desert"
-    if any(k in t for k in ["heath","sunningdale","swinley","wentworth","berkshire","woking","walton","surrey"]): return "heath"
-    if any(k in t for k in ["links","dunes","bay","beach","strand","sand hills","seaside"]): return "links"
-    if any(k in t for k in ["ireland","scotland","wales","northern ireland","norway","iceland","netherlands"]) and ("royal" in t or "golf" in t): return "links"
+    if any(k in t for k in ["heath","sunningdale","swinley","wentworth","berkshire","woking","walton","hindhead","liphook"]): return "heath"
+    if any(k in t for k in ["links","dunes"]): return "links"
+    if any(k in t for k in ["cape ","point","head","shore","bay","beach","strand","island","coast","seaside","cliff","peninsula","kidnappers","burnham"]): return "links"
+    if any(k in t for k in ["scotland","ireland","northern ireland","wales","tasmania","norway","iceland","denmark","netherlands"]): return "links"
     return "parkland"
 
 CAT = {
