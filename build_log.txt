@@ -23,3 +23,10 @@
 [09-29 04:38] CRAWL_FAIL   Cabot Links
 [09-29 04:38] TIME BUDGET HIT — stopping cleanly at +9 built this run (resumes next run)
 [09-29 04:38] RUN DONE: +9 built, 4 failed this run. Total terrain courses now: 11
+[09-29 12:13] CLOUD BUILD START: 334 targets, 24 built, 280 to attempt, budget 18000s
+[09-29 14:11] CRAWL_FAIL   Old Course at St Andrews
+[09-29 14:11] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[09-29 14:52] BUILT        Bethpage (Black)  [parkland]  (best-effort)
+[09-29 17:47] CRAWL_FAIL   Cabot Links
+[09-29 17:47] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
+[09-29 17:47] RUN DONE: +1 built, 3 failed this run. Total terrain courses now: 12

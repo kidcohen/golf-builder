@@ -235,7 +235,9 @@
   "audit": "pass"
  },
  "Bethpage (Black)": {
-  "status": "CRAWL_FAIL"
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort"
  },
  "Cabot Links": {
   "status": "CRAWL_FAIL"
