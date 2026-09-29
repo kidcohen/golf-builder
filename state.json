@@ -185,5 +185,59 @@
   "status": "BUILT",
   "cat": "parkland",
   "audit": "best_effort"
+ },
+ "Royal Lytham & St Annes": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass"
+ },
+ "St Patrick's Links (Rosapenna)": {
+  "status": "LOCATE_FAIL"
+ },
+ "Sunningdale (New)": {
+  "status": "BUILT",
+  "cat": "heath",
+  "audit": "best_effort"
+ },
+ "Sunningdale (Old)": {
+  "status": "BUILT",
+  "cat": "heath",
+  "audit": "best_effort"
+ },
+ "Te Arai (North)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort"
+ },
+ "Te Arai (South)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort"
+ },
+ "Utrecht De Pan": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass"
+ },
+ "Ardfin": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass"
+ },
+ "Ballyneal": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass"
+ },
+ "Bandon Trails": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass"
+ },
+ "Bethpage (Black)": {
+  "status": "CRAWL_FAIL"
+ },
+ "Cabot Links": {
+  "status": "CRAWL_FAIL"
  }
 }

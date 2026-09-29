@@ -1,0 +1,162 @@
+{
+ "course": "Utrecht De Pan",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 5,
+   "length": 497.4
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 4,
+   "length": 397.8
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 3,
+   "length": 153.3
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 4,
+   "length": 420.5
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 5,
+   "length": 481.1
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 4,
+   "length": 399.9
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 4,
+   "length": 318.8
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 3,
+   "length": 216.4
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 4,
+   "length": 335.7
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 4,
+   "length": 329.6
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 5,
+   "length": 498.8
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 187.1
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 4,
+   "length": 440.4
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 354.6
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 3,
+   "length": 163.4
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 4,
+   "length": 373.2
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 4,
+   "length": 292.8
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 5,
+   "length": 499.6
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 7.8,
+  "wind_dir_deg": 61,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "grassRough": [
+   0.56,
+   0.47,
+   0.22
+  ],
+  "rock": [
+   0.34,
+   0.35,
+   0.36
+  ],
+  "deep": 860984,
+  "shallow": 4164256,
+  "fairway": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "rough": [
+   0.56,
+   0.47,
+   0.22
+  ]
+ },
+ "tree_profile": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "backdrop": {
+  "type": "flat",
+  "height": 30,
+  "snow": false
+ },
+ "links": true
+}

@@ -1,0 +1,162 @@
+{
+ "course": "Ardfin",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 4,
+   "length": 438.5
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 3,
+   "length": 200.5
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 4,
+   "length": 350.6
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 5,
+   "length": 545.7
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 4,
+   "length": 302.5
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 4,
+   "length": 410.7
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 4,
+   "length": 452.2
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 4,
+   "length": 319.9
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 4,
+   "length": 297.1
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 3,
+   "length": 179.2
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 4,
+   "length": 396.1
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 187.9
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 4,
+   "length": 380.6
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 408.3
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 4,
+   "length": 423.7
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 5,
+   "length": 515.8
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 4,
+   "length": 453.3
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 5,
+   "length": 529.9
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 17.0,
+  "wind_dir_deg": 114,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "grassRough": [
+   0.56,
+   0.47,
+   0.22
+  ],
+  "rock": [
+   0.34,
+   0.35,
+   0.36
+  ],
+  "deep": 860984,
+  "shallow": 4164256,
+  "fairway": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "rough": [
+   0.56,
+   0.47,
+   0.22
+  ]
+ },
+ "tree_profile": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "backdrop": {
+  "type": "flat",
+  "height": 30,
+  "snow": false
+ },
+ "links": true
+}

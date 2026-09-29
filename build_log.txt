@@ -7,3 +7,19 @@
 [09-28 20:43] BUILT        Royal Birkdale  [parkland]  (best-effort)
 [09-28 20:43] TIME BUDGET HIT — stopping cleanly at +4 built this run (resumes next run)
 [09-28 20:43] RUN DONE: +4 built, 1 failed this run. Total terrain courses now: 4
+[09-28 22:58] CLOUD BUILD START: 334 targets, 17 built, 289 to attempt, budget 18000s
+[09-28 23:45] CRAWL_FAIL   Old Course at St Andrews
+[09-28 23:53] BUILT        Royal Lytham & St Annes  [parkland]  (PASS)
+[09-28 23:54] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[09-29 00:03] BUILT        Sunningdale (New)  [heath]  (best-effort)
+[09-29 00:08] BUILT        Sunningdale (Old)  [heath]  (best-effort)
+[09-29 01:49] BUILT        Te Arai (North)  [parkland]  (best-effort)
+[09-29 02:20] BUILT        Te Arai (South)  [parkland]  (best-effort)
+[09-29 02:26] BUILT        Utrecht De Pan  [links]  (PASS)
+[09-29 02:35] BUILT        Ardfin  [links]  (PASS)
+[09-29 02:51] BUILT        Ballyneal  [parkland]  (PASS)
+[09-29 02:57] BUILT        Bandon Trails  [parkland]  (PASS)
+[09-29 03:00] CRAWL_FAIL   Bethpage (Black)
+[09-29 04:38] CRAWL_FAIL   Cabot Links
+[09-29 04:38] TIME BUDGET HIT — stopping cleanly at +9 built this run (resumes next run)
+[09-29 04:38] RUN DONE: +9 built, 4 failed this run. Total terrain courses now: 11
