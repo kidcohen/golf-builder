@@ -19,6 +19,7 @@ TER = os.path.join(ROOT, "terrain"); OUT = os.path.join(ROOT, "courses")
 STATE = os.path.join(ROOT, "state.json"); LOG = os.path.join(ROOT, "build_log.txt")
 os.makedirs(TER, exist_ok=True); os.makedirs(OUT, exist_ok=True)
 BUDGET = int(os.environ.get("TIME_BUDGET", "18000"))   # seconds per run (default 5h)
+RENDER_VERSION = 2   # bump whenever web_sim/build_course.py's look changes -> every built course re-renders
 START = time.time()
 
 def log(m):
@@ -153,15 +154,16 @@ def run():
         folder = safe(re.sub(r"\(.*?\)", "", name).strip()); fdir = os.path.join(TER, folder)
         if not os.path.isdir(fdir): continue
         newcat = classify(name, loc_of.get(name, ""))
-        if newcat != rec.get("cat"):
+        if newcat != rec.get("cat") or rec.get("rv", 0) < RENDER_VERSION:
             try:
-                links = apply_landscape(folder, newcat)
-                if links and relief_median(folder) < 8.0:
-                    for n in range(1, 19):
-                        p = os.path.join(fdir, f"hole_{n:02d}.json")
-                        if os.path.exists(p): redune.process(p, 6.0)
+                if newcat != rec.get("cat"):
+                    links = apply_landscape(folder, newcat)
+                    if links and relief_median(folder) < 8.0:
+                        for n in range(1, 19):
+                            p = os.path.join(fdir, f"hole_{n:02d}.json")
+                            if os.path.exists(p): redune.process(p, 6.0)
                 B.build_course(fdir, re.sub(r"\(.*?\)", "", name).strip(), os.path.join(OUT, folder + ".html"))
-                rec["cat"] = newcat; rc += 1; log(f"RECLASS {name} -> {newcat}")
+                rec["cat"] = newcat; rec["rv"] = RENDER_VERSION; rc += 1; log(f"RE-RENDER {name} [{newcat}] rv{RENDER_VERSION}")
             except Exception as e:
                 log(f"reclass fail {name}: {repr(e)[:60]}")
     if rc: json.dump(state, open(STATE, "w"), indent=1); log(f"reclassified {rc} existing courses")
@@ -186,7 +188,7 @@ def run():
                             p = os.path.join(TER, folder, f"hole_{n:02d}.json")
                             if os.path.exists(p): redune.process(p, 6.0)
                     B.build_course(os.path.join(TER, folder), label, os.path.join(OUT, folder + ".html"))
-                    state[name] = {"status": "BUILT", "cat": cat, "audit": "pass" if passed else "best_effort"}
+                    state[name] = {"status": "BUILT", "cat": cat, "audit": "pass" if passed else "best_effort", "rv": RENDER_VERSION}
                     ok += 1; log(f"BUILT        {name}  [{cat}]  ({'PASS' if passed else 'best-effort'})")
         except Exception as e:
             state[name] = {"status": "ERROR", "err": repr(e)[:120]}; fail += 1; log(f"ERROR        {name}: {repr(e)[:90]}")
