@@ -145,6 +145,26 @@ def run():
     have = built_ids()
     todo = [c for c in targets if norm(c["name"]) not in have and state.get(c["name"], {}).get("status") not in ("BUILT",)]
     log(f"CLOUD BUILD START: {len(targets)} targets, {len(have)} built, {len(todo)} to attempt, budget {BUDGET}s")
+    # self-correct: re-apply landscape to already-built courses if the classifier improved
+    loc_of = {c["name"]: c.get("location", "") for c in targets}
+    rc = 0
+    for name, rec in list(state.items()):
+        if rec.get("status") != "BUILT": continue
+        folder = safe(re.sub(r"\(.*?\)", "", name).strip()); fdir = os.path.join(TER, folder)
+        if not os.path.isdir(fdir): continue
+        newcat = classify(name, loc_of.get(name, ""))
+        if newcat != rec.get("cat"):
+            try:
+                links = apply_landscape(folder, newcat)
+                if links and relief_median(folder) < 8.0:
+                    for n in range(1, 19):
+                        p = os.path.join(fdir, f"hole_{n:02d}.json")
+                        if os.path.exists(p): redune.process(p, 6.0)
+                B.build_course(fdir, re.sub(r"\(.*?\)", "", name).strip(), os.path.join(OUT, folder + ".html"))
+                rec["cat"] = newcat; rc += 1; log(f"RECLASS {name} -> {newcat}")
+            except Exception as e:
+                log(f"reclass fail {name}: {repr(e)[:60]}")
+    if rc: json.dump(state, open(STATE, "w"), indent=1); log(f"reclassified {rc} existing courses")
     ok = fail = 0
     for c in todo:
         if time.time() - START > BUDGET:
