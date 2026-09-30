@@ -19,7 +19,7 @@ TER = os.path.join(ROOT, "terrain"); OUT = os.path.join(ROOT, "courses")
 STATE = os.path.join(ROOT, "state.json"); LOG = os.path.join(ROOT, "build_log.txt")
 os.makedirs(TER, exist_ok=True); os.makedirs(OUT, exist_ok=True)
 BUDGET = int(os.environ.get("TIME_BUDGET", "18000"))   # seconds per run (default 5h)
-RENDER_VERSION = 2   # bump whenever web_sim/build_course.py's look changes -> every built course re-renders
+RENDER_VERSION = 3   # bump whenever web_sim/build_course.py's look changes -> every built course re-renders
 START = time.time()
 
 def log(m):
