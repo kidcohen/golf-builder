@@ -112,6 +112,7 @@ def one_hole(ground, hole, zoom, step_yd, corridor):
     meta = {
         "hole": hole["number"], "par": hole["par"], "length_yards": round(length, 1),
         "bearing_deg": round(float(bearing), 1),
+        "tee_latlon": [round(float(tee[0]), 7), round(float(tee[1]), 7)],   # kept so the hole can be re-exported without a re-crawl
         "extent": {"along0": a0, "along1": a1, "across": W},
         "grid": {"na": na, "nx": nx},
         "height_min": round(float(heights.min()), 2),

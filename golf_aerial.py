@@ -50,6 +50,49 @@ def metres_per_pixel(lat, zoom):
             / (2 ** zoom * TILE_PIXELS))
 
 
+def _download(zoom, x, y, into):
+    """One tile from disk cache or the service; None if it can't be had."""
+    from PIL import Image
+    cached = Path(into) / f"tile_{zoom}_{x}_{y}.jpg"
+    try:
+        if not cached.exists():
+            request = urllib.request.Request(
+                TILE_URL.format(z=zoom, x=x, y=y),
+                headers={"User-Agent": "golf-simulator-course-research"})
+            with urllib.request.urlopen(request, timeout=30) as answer:
+                cached.write_bytes(answer.read())
+        return Image.open(cached).convert("RGB")
+    except Exception:
+        return None
+
+
+def _is_placeholder(img):
+    """Esri answers an area it has no imagery for at this zoom with a flat grey
+    'Map data not yet available' tile, not an error. Almost every pixel is grey."""
+    import numpy as np
+    a = np.asarray(img.resize((64, 64)), dtype=int)
+    return float(((a.max(2) - a.min(2)) < 8).mean()) > 0.85
+
+
+def _tile(zoom, x, y, into, fallback=4):
+    """The tile at (zoom, x, y); where the service has no imagery at that zoom (remote
+    courses - Tasmania, Cape Breton, Izu...), the matching quarter of the parent tile a
+    level or more down, scaled up - softer, but the real ground, never a grey square."""
+    from PIL import Image
+    img = _download(zoom, x, y, into)
+    if img is not None and not _is_placeholder(img):
+        return img
+    for up in range(1, fallback + 1):
+        z, k = zoom - up, 2 ** up
+        par = _download(z, x // k, y // k, into)
+        if par is None or _is_placeholder(par):
+            continue
+        s = TILE_PIXELS // k
+        qx, qy = (x % k) * s, (y % k) * s
+        return par.crop((qx, qy, qx + s, qy + s)).resize((TILE_PIXELS, TILE_PIXELS), Image.BICUBIC)
+    return img                                       # nothing better anywhere: keep what we had
+
+
 def fetch(lat, lon, zoom, across, down, into):
     """A grid of tiles centred on a point, stitched into one image.
 
@@ -70,18 +113,10 @@ def fetch(lat, lon, zoom, across, down, into):
     for ix in range(across):
         for iy in range(down):
             x, y = first_x + ix, first_y + iy
-            cached = into / f"tile_{zoom}_{x}_{y}.jpg"
-            try:
-                if not cached.exists():
-                    request = urllib.request.Request(
-                        TILE_URL.format(z=zoom, x=x, y=y),
-                        headers={"User-Agent": "golf-simulator-course-research"})
-                    with urllib.request.urlopen(request, timeout=30) as answer:
-                        cached.write_bytes(answer.read())
-                canvas.paste(Image.open(cached), (ix * TILE_PIXELS, iy * TILE_PIXELS))
-                got += 1
-            except Exception:
-                pass                       # a missing tile is a grey square
+            img = _tile(zoom, x, y, into)
+            if img is not None:
+                canvas.paste(img, (ix * TILE_PIXELS, iy * TILE_PIXELS))
+                got += 1                   # (a tile nobody has at all stays a dark square)
 
     return canvas, (first_x, first_y), got, across * down
 
