@@ -30,3 +30,32 @@
 [09-29 17:47] CRAWL_FAIL   Cabot Links
 [09-29 17:47] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
 [09-29 17:47] RUN DONE: +1 built, 3 failed this run. Total terrain courses now: 12
+[09-29 21:56] CLOUD BUILD START: 334 targets, 25 built, 279 to attempt, budget 18000s
+[09-29 21:56] RE-RENDER Kawana (Fuji) [parkland] rv2
+[09-29 21:56] RE-RENDER Muirfield [links] rv2
+[09-29 21:56] RE-RENDER North Berwick (West Links) [links] rv2
+[09-29 21:56] RE-RENDER Royal Birkdale [parkland] rv2
+[09-29 21:56] RE-RENDER Royal Lytham & St Annes [parkland] rv2
+[09-29 21:56] RE-RENDER Sunningdale (New) [heath] rv2
+[09-29 21:56] RE-RENDER Sunningdale (Old) [heath] rv2
+[09-29 21:56] RE-RENDER Te Arai (North) [parkland] rv2
+[09-29 21:56] RE-RENDER Te Arai (South) [parkland] rv2
+[09-29 21:56] RE-RENDER Utrecht De Pan [links] rv2
+[09-29 21:56] RE-RENDER Ardfin [links] rv2
+[09-29 21:56] RE-RENDER Ballyneal [parkland] rv2
+[09-29 21:56] RE-RENDER Bandon Trails [parkland] rv2
+[09-29 21:56] RE-RENDER Bethpage (Black) [parkland] rv2
+[09-29 21:56] reclassified 14 existing courses
+[09-29 22:48] CRAWL_FAIL   Old Course at St Andrews
+[09-29 22:49] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[09-30 00:42] CRAWL_FAIL   Cabot Links
+[09-30 00:43] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[09-30 00:47] BUILT        California Golf Club of San Francisco  [parkland]  (PASS)
+[09-30 00:47] LOCATE_FAIL  Camargo
+[09-30 02:21] BUILT        CapRock Ranch  [parkland]  (best-effort)
+[09-30 02:31] BUILT        Casa de Campo (Teeth of the Dog)  [parkland]  (PASS)
+[09-30 02:37] BUILT        Chicago Golf Club  [parkland]  (PASS)
+[09-30 02:56] BUILT        Crystal Downs  [parkland]  (PASS)
+[09-30 03:01] BUILT        Fishers Island  [links]  (PASS)
+[09-30 03:01] TIME BUDGET HIT — stopping cleanly at +6 built this run (resumes next run)
+[09-30 03:01] RUN DONE: +6 built, 5 failed this run. Total terrain courses now: 18

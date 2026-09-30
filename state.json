@@ -166,17 +166,20 @@
  "Kawana (Fuji)": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Muirfield": {
   "status": "BUILT",
-  "cat": "parkland",
-  "audit": "pass"
+  "cat": "links",
+  "audit": "pass",
+  "rv": 2
  },
  "North Berwick (West Links)": {
   "status": "BUILT",
   "cat": "links",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "Old Course at St Andrews": {
   "status": "CRAWL_FAIL"
@@ -184,12 +187,14 @@
  "Royal Birkdale": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Royal Lytham & St Annes": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "St Patrick's Links (Rosapenna)": {
   "status": "LOCATE_FAIL"
@@ -197,49 +202,100 @@
  "Sunningdale (New)": {
   "status": "BUILT",
   "cat": "heath",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Sunningdale (Old)": {
   "status": "BUILT",
   "cat": "heath",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Te Arai (North)": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Te Arai (South)": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Utrecht De Pan": {
   "status": "BUILT",
   "cat": "links",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "Ardfin": {
   "status": "BUILT",
   "cat": "links",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "Ballyneal": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "Bandon Trails": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "pass"
+  "audit": "pass",
+  "rv": 2
  },
  "Bethpage (Black)": {
   "status": "BUILT",
   "cat": "parkland",
-  "audit": "best_effort"
+  "audit": "best_effort",
+  "rv": 2
  },
  "Cabot Links": {
   "status": "CRAWL_FAIL"
+ },
+ "Cabot Saint Lucia (Point Hardy)": {
+  "status": "LOCATE_FAIL"
+ },
+ "California Golf Club of San Francisco": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 2
+ },
+ "Camargo": {
+  "status": "LOCATE_FAIL"
+ },
+ "CapRock Ranch": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort",
+  "rv": 2
+ },
+ "Casa de Campo (Teeth of the Dog)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 2
+ },
+ "Chicago Golf Club": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 2
+ },
+ "Crystal Downs": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 2
+ },
+ "Fishers Island": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 2
  }
 }

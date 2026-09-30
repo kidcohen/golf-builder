@@ -1170,13 +1170,14 @@ try {
     side:THREE.BackSide, depthWrite:false, fog:false });
   const skyDome=new THREE.Mesh(new THREE.SphereGeometry(4000,32,16), skyMat);
   skyDome.renderOrder=-10; scene.add(skyDome);   // background: drawn before the ranges so it doesn't paint over them
-  const BACKDROP = {"type": "forest", "height": 130, "snow": false};   // {height, snow}: only the landscape naturally there - low forested coastal hills for Pebble, tall snowy peaks only for real mountain courses
+  const BACKDROP = {"type": "flat", "height": 30, "snow": false};   // {height, snow}: only the landscape naturally there - low forested coastal hills for Pebble, tall snowy peaks only for real mountain courses
   // Distant mountains as REAL 3D terrain ringing the horizon: an annular band whose
   // height is 2D-noise peaks, LIT by the scene's sun so the faces carry light and
   // shadow (that is what makes a mountain read as a mountain, not a flat blob), shaded
   // by elevation forested -> rock -> snow. Stylised and clean, like the E6 backdrop.
   function mountainRange(){
-    const A=200, RN=30, rIn=820, rOut=3600, maxH=BACKDROP.height;
+    const A=200, RN=30, rIn=820, rOut=3600;
+    const maxH=(BACKDROP.type==='flat') ? Math.max(BACKDROP.height||0, 95) : BACKDROP.height;   // flat links get a low dune horizon, never a dark -60 seam
     const geo=new THREE.BufferGeometry(), pos=[], col=[], idx=[];
     const h2=(x,y)=>{ const s=Math.sin(x*12.9898+y*78.233)*43758.5453; return s-Math.floor(s); };
     const vn=(x,y)=>{ const xi=Math.floor(x),yi=Math.floor(y),xf=x-xi,yf=y-yi;
@@ -1262,9 +1263,9 @@ try {
     mat: new THREE.MeshBasicMaterial({map:treeTexFrom(im.d), alphaTest:0.5, side:THREE.DoubleSide, depthWrite:true, fog:true}),
     tall: _TALL[i] }));
   // per-course species weights [broadleaf, broadleaf2, conifer, autumn]
-  const TREE_PROFILE = [0.3, 0.6, 0.02, 0.08, 0.0];
+  const TREE_PROFILE = [0.0, 0.0, 0.0, 0.0, 0.0];
   const TALLGRASS = 0.4;   // per-course amount of TALL native grass (manicured parkland ~0.1, links ~0.9)
-  const PALETTE = {"grassFair": [0.28, 0.55, 0.15], "grassRough": [0.18, 0.38, 0.12], "rock": [0.34, 0.34, 0.33], "deep": 1192007, "shallow": 3833762, "fairway": [0.28, 0.55, 0.15], "rough": [0.18, 0.38, 0.12]};   // per-course ocean + turf + rock colours, measured from real photos
+  const PALETTE = {"grassFair": [0.44, 0.6, 0.22], "grassRough": [0.56, 0.47, 0.22], "rock": [0.34, 0.35, 0.36], "deep": 860984, "shallow": 4164256, "fairway": [0.44, 0.6, 0.22], "rough": [0.56, 0.47, 0.22]};   // per-course ocean + turf + rock colours, measured from real photos
   // On-hole turf/blade colours: default to the approved green (unchanged for the first 22),
   // overridable per course so links can carry golden-tan marram rough instead of green.
   const GFAIR = (PALETTE&&PALETTE.grassFair)||[0.36,0.64,0.21];
@@ -1365,6 +1366,39 @@ try {
   scene.add(grassMesh);
   grassMesh.visible=true;    // raised grass, built patch-by-patch on a jittered GRID (no gaps between batches), over the user's grass ground
   let gOrthoPix=null, gOrthoW=0, gOrthoH=0, lastGrassX=1e9, lastGrassZ=1e9;
+  // Natural turf patchiness, shared by the 3D blades AND the ground shader (one texture,
+  // so near blades and far ground always agree - no seam). Low-frequency only: 6-16yd
+  // patches of drier/lighter and deeper/darker grass, never fine streaks.
+  let gMottle=null, gMU=0, gMV=0, gMottleTex=null;
+  function makeMottle(W, a0, a1, seed){
+    const MU=96, MV=Math.max(64, Math.min(320, Math.round((a1-a0)/2.5)));
+    const hs=(x,y)=>{ let h=(Math.imul(x,374761393)+Math.imul(y,668265263)+Math.imul(seed|0,-2048144789))|0;
+      h=Math.imul(h^(h>>>13),1274126177); return ((h^(h>>>16))>>>0)/4294967295; };
+    const vn=(x,y)=>{ const xi=Math.floor(x), yi=Math.floor(y), xf=x-xi, yf=y-yi, u=xf*xf*(3-2*xf), v=yf*yf*(3-2*yf);
+      return hs(xi,yi)*(1-u)*(1-v)+hs(xi+1,yi)*u*(1-v)+hs(xi,yi+1)*(1-u)*v+hs(xi+1,yi+1)*u*v; };
+    const arr=new Float32Array(MU*MV), data=new Uint8Array(MU*MV*4);
+    for(let r=0;r<MV;r++){ const al=a0+(a1-a0)*r/(MV-1);
+      for(let c=0;c<MU;c++){ const ac=-W+2*W*c/(MU-1);
+        let n=0.65*vn(ac/16.0, al/16.0) + 0.35*vn(ac/6.0+31.7, al/6.0+17.3);
+        n=Math.min(1,Math.max(0,(n-0.22)/0.56)); n=n*n*(3-2*n);
+        arr[r*MU+c]=n; const b=Math.round(n*255), k=(r*MU+c)*4; data[k]=b; data[k+1]=b; data[k+2]=b; data[k+3]=255; } }
+    if(gMottleTex) gMottleTex.dispose();
+    const tx=new THREE.DataTexture(data, MU, MV, THREE.RGBAFormat);
+    tx.magFilter=tx.minFilter=THREE.LinearFilter; tx.wrapS=tx.wrapT=THREE.ClampToEdgeWrapping; tx.needsUpdate=true;
+    gMottle=arr; gMU=MU; gMV=MV; gMottleTex=tx; return tx;
+  }
+  function mottleAt(u,v){                       // bilinear, same filtering as the shader's texture lookup
+    if(!gMottle) return 0.5;
+    const x=Math.max(0,Math.min(gMU-1,u*(gMU-1))), y=Math.max(0,Math.min(gMV-1,v*(gMV-1)));
+    const x0=Math.floor(x), y0=Math.floor(y), x1=Math.min(gMU-1,x0+1), y1=Math.min(gMV-1,y0+1), fx=x-x0, fy=y-y0;
+    const a=gMottle[y0*gMU+x0], b=gMottle[y0*gMU+x1], c=gMottle[y1*gMU+x0], d=gMottle[y1*gMU+x1];
+    return (a*(1-fx)+b*fx)*(1-fy)+(c*(1-fx)+d*fx)*fy;
+  }
+  // The rough/fairway colour at a mottle value - the SAME formula is used in the ground shader.
+  function turfCol(base, m, isRough){
+    if(isRough){ const k=0.80+0.34*m; return [base[0]*k*(1.0+0.10*m), base[1]*k*(1.0+0.05*m), base[2]*k*(1.0-0.16*m)]; }
+    const k=0.95+0.10*m; return [base[0]*k, base[1]*k, base[2]*k];
+  }
   const _gm=new THREE.Matrix4(), _gp=new THREE.Vector3(), _gq=new THREE.Quaternion(), _ge=new THREE.Euler(), _gs=new THREE.Vector3(), _gc=new THREE.Color();
   let rockGroups=null, rockSpecs=null;
   // Coastal rocks as photo billboards: read the shoreline from the aerial (blue water
@@ -1416,6 +1450,7 @@ try {
     const gA=gA0+2.0, gB=gA1-2.0;   // FULL HOLE: grass runs tee to green so there is no band far-edge seam (the transition the user hated)
     const NG=0, BN=GRASSN-NG, GRN=clAtA(gGreenA);   // no reserved green patch: full coverage already grasses the green
     const aRange=gB-gA, cRange=2.0*gridW;
+    const T0C=clAtA(0.0)[1];   // tee-box centre across (the box spans along -9.5..6.5, +/-7.5yd)
     const acrossN=Math.max(1, Math.round(Math.sqrt(BN*cRange/aRange)));
     const alongN=Math.floor(BN/acrossN);
     const cellA=aRange/alongN, cellC=cRange/acrossN;
@@ -1427,7 +1462,6 @@ try {
         across = -gridW + cellC*(jc+0.5) + (GOFF[i*4+1]-0.5)*cellC*0.95; }
       const bx=across, bz=along;
       let ok = along>gA0 && along<gA1 && across>-gW && across<gW;
-      if(along>-9 && along<0.5 && Math.abs(across-clAtA(0)[1])<4.0) ok=false;   // only the tiny tee patch stays bare
       let r=0,gg=0,b=0;
       if(ok){ const u=(across+gW)/(2*gW), v=(along-gA0)/(gA1-gA0);
         const px=Math.max(0,Math.min(gOrthoW-1,Math.round(u*(gOrthoW-1))));
@@ -1439,7 +1473,7 @@ try {
       const y=sampleH(along,across);
       const clc=clAtA(along)[1], dG=Math.hypot(along-GPP[0],across-GPP[1]);
       const onG=dG<16.0;                                                              // green (core) + collar - never tall rough
-      const nearTee=along<14.0;                                                       // teeing ground = short mown
+      const nearTee=along>-9.5 && along<6.5 && Math.abs(across-T0C)<7.5;             // the TEE BOX itself = short mown (not the whole width of the hole)
       // REAL fairway shape: the hole centreline is placed to the actual hole (the dogleg
       // around the bunker), so distance from it defines the mown fairway corridor.
       const distCL=Math.abs(across-clc);
@@ -1460,7 +1494,8 @@ try {
       const sc=baseH*hj*edgeFade;
       _gs.set(sc, sc, sc);
       _gp.set(bx,y,bz); _gm.compose(_gp,_gq,_gs); grassMesh.setMatrixAt(i,_gm);
-      const bc=(onG||nearTee)?[0.34,0.56,0.20]:(inFair?GFAIR:GROUGH);  // tee/green short light green; fairway/rough from the per-course palette (green parkland, golden-tan links)
+      const mU=(across+gW)/(2*gW), mV=(along-gA0)/(gA1-gA0), mt=mottleAt(mU,mV);
+      const bc=(onG||nearTee)?turfCol([0.34,0.56,0.20],mt,false):(inFair?turfCol(GFAIR,mt,false):turfCol(GROUGH,mt,true));  // per-course palette + natural patchiness (same as the ground under it)
       const stripe=inFair?(Math.sin(across*0.85)>0.0?1.07:0.95):1.0;            // gentle mow stripes in the fairway only
       const jitr=0.90+0.20*frac(GOFF[i*4]*0.7+GOFF[i*4+1]*1.3);                 // gentle per-tuft light/dark (reduced, so it is not streaky)
       _gc.setRGB(bc[0]*stripe*jitr, bc[1]*stripe*jitr, bc[2]*stripe*jitr); grassMesh.setColorAt(i,_gc);
@@ -1941,9 +1976,13 @@ try {
     // grass blades use, so the ground's fairway/rough matches the blades exactly (no
     // pale mismatch where dark rough blades sit on a light fairway-painted ground)
     const fairF=new Float32Array((na+1)*(nx+1));
+    const t0g=clAtA(0.0)[1];
     for(let i=0;i<=na;i++){ const al=a0+(a1-a0)*i/na, clc=clAtA(al)[1];
       for(let j=0;j<=nx;j++){ const ac=-W+2*W*j/nx, dcl=Math.abs(ac-clc);
-        fairF[i*(nx+1)+j]= al>14.0 ? (1.0-Math.min(1.0,Math.max(0.0,(dcl-fwHalf(al, ac-clc))/1.8))) : 0.0; } }   // real per-hole fairway body + start (fwHalf=0 where the aerial shows rough, incl. the tee apron)
+        let f = al>14.0 ? (1.0-Math.min(1.0,Math.max(0.0,(dcl-fwHalf(al, ac-clc))/1.8))) : 0.0;   // real per-hole fairway body + start (fwHalf=0 where the aerial shows rough, incl. the tee apron)
+        const teeF=Math.min(Math.min(1.0,Math.max(0.0,(al+9.5)/1.5)), Math.min(1.0,Math.max(0.0,(6.5-al)/1.5)),
+                            Math.min(1.0,Math.max(0.0,(7.5-Math.abs(ac-t0g))/1.5)));   // the tee box: mown, striped turf with a soft edge
+        fairF[i*(nx+1)+j]=Math.max(f, teeF); } }
     g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
     g.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
     g.setAttribute('bunker',new THREE.Float32BufferAttribute(bunkF,1));
@@ -1957,11 +1996,12 @@ try {
     tex.wrapS=tex.wrapT=THREE.ClampToEdgeWrapping;
     tex.anisotropy=R.capabilities.getMaxAnisotropy();
     const groundMat = new THREE.MeshStandardMaterial({map:tex, roughness:0.97});
+    const mottleTex = makeMottle(W, a0, a1, Math.round((a1-a0)*13 + W*7));   // shared with the blades (mottleAt)
     const grassRep = new THREE.Vector2((2*W)/1.6, (a1-a0)/1.6);   // ~1.6yd per grass tile
     const sandRep = new THREE.Vector2((2*W)/2.6, (a1-a0)/2.6);     // ~2.6yd tile: real sand photo at natural scale
     groundMat.onBeforeCompile = (sh)=>{
       sh.uniforms.grassCol={value:grassTex}; sh.uniforms.sand={value:sandTex}; sh.uniforms.grassDet={value:grassDetailTex};
-      sh.uniforms.grassSample={value:grassSampleTex};
+      sh.uniforms.grassSample={value:grassSampleTex}; sh.uniforms.mottle={value:mottleTex};
       sh.uniforms.grassRep={value:grassRep}; sh.uniforms.sandRep={value:sandRep};
       sh.uniforms.HW={value:W};
       sh.uniforms.FAIRWAY={value:new THREE.Color(PALETTE.fairway[0],PALETTE.fairway[1],PALETTE.fairway[2])};
@@ -1970,7 +2010,7 @@ try {
       sh.uniforms.GROUGH={value:new THREE.Color(GROUGH[0],GROUGH[1],GROUGH[2])};
       sh.vertexShader = 'attribute float bunker;\nattribute float grn;\nattribute float fair;\nvarying float vBunk;\nvarying float vGreen;\nvarying float vFair;\n'
         + sh.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\n vBunk=bunker; vGreen=grn; vFair=fair;');
-      sh.fragmentShader = 'uniform sampler2D grassCol;\nuniform sampler2D sand;\nuniform sampler2D grassDet;\nuniform sampler2D grassSample;\nuniform vec2 grassRep;\nuniform vec2 sandRep;\nuniform float HW;\nuniform vec3 FAIRWAY;\nuniform vec3 ROUGH;\nuniform vec3 GFAIR;\nuniform vec3 GROUGH;\nvarying float vBunk;\nvarying float vGreen;\nvarying float vFair;\n'
+      sh.fragmentShader = 'uniform sampler2D grassCol;\nuniform sampler2D sand;\nuniform sampler2D grassDet;\nuniform sampler2D grassSample;\nuniform sampler2D mottle;\nuniform vec2 grassRep;\nuniform vec2 sandRep;\nuniform float HW;\nuniform vec3 FAIRWAY;\nuniform vec3 ROUGH;\nuniform vec3 GFAIR;\nuniform vec3 GROUGH;\nvarying float vBunk;\nvarying float vGreen;\nvarying float vFair;\n'
         + sh.fragmentShader.replace('#include <map_fragment>',
         '#include <map_fragment>\n{ float o=0.0016;\n'
         + '  vec3 bl=(texture2D(map,vUv+vec2(o,0.0)).rgb+texture2D(map,vUv-vec2(o,0.0)).rgb+texture2D(map,vUv+vec2(0.0,o)).rgb+texture2D(map,vUv-vec2(0.0,o)).rgb)*0.25;\n'
@@ -2002,7 +2042,10 @@ try {
         + '  float gb3=dot(texture2D(grassDet, vUv*grassRep*2.3).rgb, vec3(0.333));\n'      // fine near-camera blades
         + '  float blade=clamp(gb1*0.5+gb2*0.28+gb3*0.22, 0.0, 1.0);\n'
         + '  vec3 gd=vec3(0.55+0.7*blade);\n'                                   // blade grain (also used by the putting-green tint below)
-        + '  vec3 clean=mix(GROUGH, GFAIR, vFair);\n'   // turf colour = EXACT blade palette (per-course GFAIR/GROUGH) so where the 3D blades distance-fade there is NO colour seam - ground matches blades (green parkland, golden-tan links)
+        + '  float mt=texture2D(mottle, vUv).r;\n'                                                      // natural turf patchiness - SAME texture + formula as the blades (turfCol)
+        + '  vec3 roughM=GROUGH*(0.80+0.34*mt)*vec3(1.0+0.10*mt, 1.0+0.05*mt, 1.0-0.16*mt);\n'
+        + '  vec3 fairM=GFAIR*(0.95+0.10*mt);\n'
+        + '  vec3 clean=mix(roughM, fairM, vFair);\n'   // turf colour = EXACT blade palette (per-course GFAIR/GROUGH) so where the 3D blades distance-fade there is NO colour seam - ground matches blades (green parkland, golden-tan links)
         + '  float across=(vUv.x*2.0-1.0)*HW;\n'
         + '  float mb=sin(across*0.85); mb=sign(mb)*pow(abs(mb),0.40);\n'       // crisp mow bands
         + '  clean*=1.0+0.09*mb*vFair;\n'                                       // gentle mowing stripes on the FAIRWAY only
@@ -2131,20 +2174,9 @@ try {
         const pmesh=new THREE.Mesh(pg, pmat); pmesh.renderOrder=2; group.add(pmesh);
       }
     })();
-    // Tee box: a distinct, level, closely-mown patch at the tee - a lighter green so
-    // the teeing ground reads as its own surface, not just more fairway.
-    (function(){
-      const t0=clAtA(0.0)[1], al0=-9.0, al1=6.0, halfW=7.5, nx=4, nz=6, eps=0.18;
-      const vpos=[], vidx=[];
-      for(let iz=0;iz<=nz;iz++){ const al=al0+(al1-al0)*iz/nz;
-        for(let ix=0;ix<=nx;ix++){ const ac=t0-halfW+2*halfW*ix/nx; vpos.push(ac, sampleH(al,ac)+eps, al); } }
-      for(let iz=0;iz<nz;iz++)for(let ix=0;ix<nx;ix++){ const a=iz*(nx+1)+ix; vidx.push(a,a+1,a+nx+1, a+1,a+nx+2,a+nx+1); }
-      const tg=new THREE.BufferGeometry();
-      tg.setAttribute('position', new THREE.Float32BufferAttribute(vpos,3)); tg.setIndex(vidx); tg.computeVertexNormals();
-      const tmat=new THREE.MeshStandardMaterial({color:0x040f01, roughness:1.0, metalness:0.0, side:THREE.DoubleSide,
-        polygonOffset:true, polygonOffsetFactor:-2.0, polygonOffsetUnits:-2.0});   // mown tee turf (dark green so it does not blow pale under the sun)
-      const tmesh=new THREE.Mesh(tg,tmat); tmesh.renderOrder=2; group.add(tmesh);
-    })();
+    // (Tee box is now real mown turf - painted in the ground shader via fairF and covered
+    // in short blades - instead of the old flat, untextured near-black slab that filled
+    // the bottom of every tee shot.)
     // Forest backdrop: for parkland/coastal courses, line the corridor edges and far
     // end with a dense band of trees, so the hole is ringed by woods (the natural
     // backdrop at Pebble, Augusta, etc.) - not hills or mountains.
