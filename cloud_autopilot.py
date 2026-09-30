@@ -130,8 +130,7 @@ def locate_multi(name, gap=6):
 
 def built_ids():
     have = {}
-    for a in ["augustanational","standrewsold","turnberry","royaltroon","royalportrush","royalcountydown",
-              "cypresspoint","pebblebeach","royalstgeorges","carnoustie","royaldornoch","spyglasshill","gullane"]:
+    for a in ["augustanational","standrewsold","oldcourseatstandrews","turnberry","turnberryailsa","royaltroon","royalportrush","royalcountydown","cypresspoint","pebblebeach","royalstgeorges","carnoustie","royaldornoch","muirfield","wingedfoot","merion","pinevalley","oakmont","royalbirkdale","sebonack"]:
         have[a] = 1
     if os.path.isdir(TER):
         for d in os.listdir(TER):

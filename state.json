@@ -170,10 +170,8 @@
   "rv": 2
  },
  "Muirfield": {
-  "status": "BUILT",
-  "cat": "links",
-  "audit": "pass",
-  "rv": 2
+  "status": "DUPLICATE",
+  "of": "Gullane_Honours"
  },
  "North Berwick (West Links)": {
   "status": "BUILT",
@@ -185,10 +183,8 @@
   "status": "CRAWL_FAIL"
  },
  "Royal Birkdale": {
-  "status": "BUILT",
-  "cat": "parkland",
-  "audit": "best_effort",
-  "rv": 2
+  "status": "DUPLICATE",
+  "of": "Dune_Valleys"
  },
  "Royal Lytham & St Annes": {
   "status": "BUILT",
