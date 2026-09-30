@@ -139,9 +139,31 @@ def built_ids():
                 have[norm(d)] = 1
     return have
 
+def blank_aerials(folder):
+    """Fraction of a course's hole aerials that are the provider's grey 'no imagery' placeholder."""
+    from PIL import Image
+    bad = tot = 0
+    for n in range(1, 19):
+        p = os.path.join(TER, folder, f"hole_{n:02d}_ortho.jpg")
+        if not os.path.exists(p): continue
+        tot += 1
+        a = np.asarray(Image.open(p).convert("RGB").resize((96, 240)), dtype=int)
+        if float(((a.max(2) - a.min(2)) < 8).mean()) > 0.85: bad += 1
+    return bad / tot if tot else 0.0
+
 def run():
     targets = json.load(open("courses_top_world.json"))["courses"]
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
+    # courses built on blank placeholder aerials (before the lower-zoom fallback): drop them so they rebuild on real imagery
+    import shutil
+    for d in (os.listdir(TER) if os.path.isdir(TER) else []):
+        if os.path.isdir(os.path.join(TER, d)) and blank_aerials(d) >= 0.5:
+            shutil.rmtree(os.path.join(TER, d), ignore_errors=True)
+            h = os.path.join(OUT, d + ".html")
+            if os.path.exists(h): os.remove(h)
+            for k, v in list(state.items()):
+                if safe(re.sub(r"\(.*?\)", "", k).strip()) == d: state.pop(k)
+            log(f"BLANK AERIALS {d}: dropped for rebuild on real imagery")
     have = built_ids()
     todo = [c for c in targets if norm(c["name"]) not in have and state.get(c["name"], {}).get("status") not in ("BUILT",)]
     log(f"CLOUD BUILD START: {len(targets)} targets, {len(have)} built, {len(todo)} to attempt, budget {BUDGET}s")
