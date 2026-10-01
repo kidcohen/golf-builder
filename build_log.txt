@@ -87,3 +87,11 @@
 [10-01 07:14] BUILT        Casa de Campo (Teeth of the Dog)  [parkland]  (PASS)
 [10-01 09:04] BUILT        Friar's Head  [links]  (best-effort)
 [10-01 09:19] BUILT        Ganton  [parkland]  (PASS)
+[10-01 12:32] CLOUD BUILD START: 334 targets, 38 built, 265 to attempt, budget 18000s
+[10-01 12:33] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[10-01 16:22] CRAWL_FAIL   Cabot Links
+[10-01 16:23] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[10-01 17:23] CRAWL_FAIL   Camargo
+[10-01 18:21] CRAWL_FAIL   Garden City
+[10-01 18:22] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[10-01 18:22] RUN DONE: +0 built, 5 failed this run. Total terrain courses now: 18
