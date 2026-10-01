@@ -59,3 +59,31 @@
 [09-30 03:01] BUILT        Fishers Island  [links]  (PASS)
 [09-30 03:01] TIME BUDGET HIT — stopping cleanly at +6 built this run (resumes next run)
 [09-30 03:01] RUN DONE: +6 built, 5 failed this run. Total terrain courses now: 18
+[10-01 04:26] BLANK AERIALS Casa_de_Campo: dropped for rebuild on real imagery
+[10-01 04:26] BLANK AERIALS Kawana: dropped for rebuild on real imagery
+[10-01 04:26] CLOUD BUILD START: 334 targets, 34 built, 269 to attempt, budget 18000s
+[10-01 04:26] RE-RENDER North Berwick (West Links) [links] rv3
+[10-01 04:26] RE-RENDER Royal Lytham & St Annes [parkland] rv3
+[10-01 04:26] RE-RENDER Sunningdale (New) [heath] rv3
+[10-01 04:26] RE-RENDER Sunningdale (Old) [heath] rv3
+[10-01 04:26] RE-RENDER Te Arai (North) [parkland] rv3
+[10-01 04:26] RE-RENDER Te Arai (South) [parkland] rv3
+[10-01 04:26] RE-RENDER Utrecht De Pan [links] rv3
+[10-01 04:26] RE-RENDER Ardfin [links] rv3
+[10-01 04:26] RE-RENDER Ballyneal [parkland] rv3
+[10-01 04:26] RE-RENDER Bandon Trails [parkland] rv3
+[10-01 04:26] RE-RENDER Bethpage (Black) [parkland] rv3
+[10-01 04:26] RE-RENDER California Golf Club of San Francisco [parkland] rv3
+[10-01 04:26] RE-RENDER CapRock Ranch [parkland] rv3
+[10-01 04:26] RE-RENDER Chicago Golf Club [parkland] rv3
+[10-01 04:26] RE-RENDER Crystal Downs [parkland] rv3
+[10-01 04:26] RE-RENDER Fishers Island [links] rv3
+[10-01 04:26] reclassified 16 existing courses
+[10-01 04:50] BUILT        Kawana (Fuji)  [parkland]  (best-effort)
+[10-01 04:50] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[10-01 06:55] CRAWL_FAIL   Cabot Links
+[10-01 06:56] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[10-01 06:57] LOCATE_FAIL  Camargo
+[10-01 07:14] BUILT        Casa de Campo (Teeth of the Dog)  [parkland]  (PASS)
+[10-01 09:04] BUILT        Friar's Head  [links]  (best-effort)
+[10-01 09:19] BUILT        Ganton  [parkland]  (PASS)

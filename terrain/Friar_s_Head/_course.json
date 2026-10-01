@@ -1,0 +1,162 @@
+{
+ "course": "Friar's Head",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 4,
+   "length": 347.1
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 4,
+   "length": 403.5
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 3,
+   "length": 165.6
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 3,
+   "length": 226.4
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 4,
+   "length": 330.3
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 4,
+   "length": 337.1
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 4,
+   "length": 453.2
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 3,
+   "length": 159.9
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 4,
+   "length": 388.7
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 3,
+   "length": 193.2
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 4,
+   "length": 391.2
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 190.6
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 3,
+   "length": 147.2
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 428.5
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 3,
+   "length": 213.0
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 4,
+   "length": 349.6
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 3,
+   "length": 159.2
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 4,
+   "length": 427.0
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 5.8,
+  "wind_dir_deg": 196,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "grassRough": [
+   0.56,
+   0.47,
+   0.22
+  ],
+  "rock": [
+   0.34,
+   0.35,
+   0.36
+  ],
+  "deep": 860984,
+  "shallow": 4164256,
+  "fairway": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "rough": [
+   0.56,
+   0.47,
+   0.22
+  ]
+ },
+ "tree_profile": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "backdrop": {
+  "type": "flat",
+  "height": 30,
+  "snow": false
+ },
+ "links": true
+}

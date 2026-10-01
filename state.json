@@ -163,12 +163,6 @@
   "status": "BUILT",
   "seeded": true
  },
- "Kawana (Fuji)": {
-  "status": "BUILT",
-  "cat": "parkland",
-  "audit": "best_effort",
-  "rv": 2
- },
  "Muirfield": {
   "status": "DUPLICATE",
   "of": "Gullane_Honours"
@@ -177,7 +171,7 @@
   "status": "BUILT",
   "cat": "links",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Old Course at St Andrews": {
   "status": "CRAWL_FAIL"
@@ -190,7 +184,7 @@
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "St Patrick's Links (Rosapenna)": {
   "status": "LOCATE_FAIL"
@@ -199,55 +193,55 @@
   "status": "BUILT",
   "cat": "heath",
   "audit": "best_effort",
-  "rv": 2
+  "rv": 3
  },
  "Sunningdale (Old)": {
   "status": "BUILT",
   "cat": "heath",
   "audit": "best_effort",
-  "rv": 2
+  "rv": 3
  },
  "Te Arai (North)": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "best_effort",
-  "rv": 2
+  "rv": 3
  },
  "Te Arai (South)": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "best_effort",
-  "rv": 2
+  "rv": 3
  },
  "Utrecht De Pan": {
   "status": "BUILT",
   "cat": "links",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Ardfin": {
   "status": "BUILT",
   "cat": "links",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Ballyneal": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Bandon Trails": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Bethpage (Black)": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "best_effort",
-  "rv": 2
+  "rv": 3
  },
  "Cabot Links": {
   "status": "CRAWL_FAIL"
@@ -259,7 +253,7 @@
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Camargo": {
   "status": "LOCATE_FAIL"
@@ -268,30 +262,48 @@
   "status": "BUILT",
   "cat": "parkland",
   "audit": "best_effort",
-  "rv": 2
- },
- "Casa de Campo (Teeth of the Dog)": {
-  "status": "BUILT",
-  "cat": "parkland",
-  "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Chicago Golf Club": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Crystal Downs": {
   "status": "BUILT",
   "cat": "parkland",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
  },
  "Fishers Island": {
   "status": "BUILT",
   "cat": "links",
   "audit": "pass",
-  "rv": 2
+  "rv": 3
+ },
+ "Kawana (Fuji)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort",
+  "rv": 3
+ },
+ "Casa de Campo (Teeth of the Dog)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Friar's Head": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "best_effort",
+  "rv": 3
+ },
+ "Ganton": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }

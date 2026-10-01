@@ -112,10 +112,10 @@
   }
  ],
  "weather": {
-  "wind_speed_mph": 10.2,
-  "wind_dir_deg": 71,
+  "wind_speed_mph": 7.7,
+  "wind_dir_deg": 66,
   "rain": 0.0,
-  "wetness": 0.04
+  "wetness": 0.06
  },
  "palette": {
   "grassFair": [

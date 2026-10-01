@@ -1345,21 +1345,25 @@ try {
   // dark rough ground so there are no gaps. NO cards.
   const grassMat=new THREE.ShaderMaterial({ side:THREE.DoubleSide,
     uniforms:{ time:{value:0}, windDir:{value:new THREE.Vector2(1,0)}, windStr:{value:0.3},
-               camPos:{value:new THREE.Vector3()}, fadeR:{value:GRASSR} },
+               camPos:{value:new THREE.Vector3()}, fadeR:{value:GRASSR},
+               sunDir:{value:new THREE.Vector3(-0.532,0.816,0.230)} },   // same upper-left sun as the scene light
     vertexShader:
-      'varying vec3 vCol; varying float vA; varying float vT;\n'
-      +'uniform float time; uniform vec2 windDir; uniform float windStr; uniform vec3 camPos; uniform float fadeR;\n'
+      'varying vec3 vCol; varying float vA; varying float vT; varying float vL; varying float vR;\n'
+      +'uniform float time; uniform vec2 windDir; uniform float windStr; uniform vec3 camPos; uniform float fadeR; uniform vec3 sunDir;\n'
       +'void main(){ vCol=instanceColor; vT=uv.y;\n'
       +' vec4 wp=instanceMatrix*vec4(0.0,0.0,0.0,1.0);\n'
-      +' float d=distance(wp.xz,camPos.xz); float fade=1.0-smoothstep(fadeR*0.82,fadeR,d); vA=fade;\n'
+      +' float d=distance(wp.xz,camPos.xz); float fade=1.0-smoothstep(fadeR*0.78,fadeR,d); vA=fade;\n'
+      +' vR=fract(sin(wp.x*12.9898+wp.z*78.233)*43758.5453);\n'                          // per-tuft random: distance fade thins whole tufts, no hard edge
+      +' vec3 nw=normalize(mat3(modelMatrix)*mat3(instanceMatrix)*normal);\n'
+      +' vL=0.80+0.40*abs(dot(nw,sunDir));\n'                                             // blades catch the sun by their facing (lit like the ground, not flat cartoon colour)
       +' vec3 p=position; float t=uv.y;\n'
       +' float ph=wp.x*0.6+wp.z*0.6; float s=(windStr*0.05+windStr*0.04*sin(time*2.0+ph))*t;\n'
       +' p.x+=windDir.x*s*2.5; p.z+=windDir.y*s*2.5;\n'
       +' gl_Position=projectionMatrix*modelViewMatrix*instanceMatrix*vec4(p,1.0); }',
     fragmentShader:
-      'varying vec3 vCol; varying float vA; varying float vT;\n'
-      +'void main(){ if(vA<0.03) discard;\n'
-      +' gl_FragColor=vec4(vCol*(0.58+0.55*vT), 1.0); }' });                            // thin blade: darker at the base, lighter at the tip
+      'varying vec3 vCol; varying float vA; varying float vT; varying float vL; varying float vR;\n'
+      +'void main(){ if(vA<0.03 || vA<vR*0.999) discard;\n'                                // soft, tuft-by-tuft thinning into the ground at distance
+      +' gl_FragColor=vec4(vCol*(0.60+0.42*vT)*vL, 1.0); }' });                        // natural blade: self-shadowed base, tip at ~full colour (no pale over-bright tips), sun-lit
   let grassMesh=new THREE.InstancedMesh(bladeGeo(), grassMat, GRASSN);                  // thin grass blades (no cards)
   grassMesh.frustumCulled=false;
   grassMesh.instanceColor=new THREE.InstancedBufferAttribute(new Float32Array(GRASSN*3),3);
@@ -2059,6 +2063,8 @@ try {
         + '  float gcollar=smoothstep(0.05,0.45,vGreen)*(1.0-gcore);\n'             // the fringe/collar ring around it
         + '  diffuseColor.rgb=mix(diffuseColor.rgb, ROUGH*0.82, gcollar*0.6);\n'     // darker collar band
         + '  diffuseColor.rgb=mix(diffuseColor.rgb, puttG, gcore);\n'               // distinct putting green
+        + '  float nearCam=1.0-smoothstep(18.0,45.0,length(vViewPosition));\n'                 // up close, the gaps between blades show the shadowed lower turf, not a bright lit floor
+        + '  diffuseColor.rgb*=mix(1.0,0.56,nearCam*(1.0-gcore)*(1.0-clamp(vBunk,0.0,1.0)));\n' // (no pale specks between blades; distant colour balance unchanged; green + sand untouched)
         + '  diffuseColor.rgb=clamp(diffuseColor.rgb,0.0,1.0); }');
     };
     groundMesh = new THREE.Mesh(g, groundMat); groundMesh.receiveShadow=true;
