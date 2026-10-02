@@ -111,3 +111,10 @@
 [10-02 06:49] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
 [10-02 07:28] CRAWL_FAIL   Camargo
 [10-02 08:04] CRAWL_FAIL   Garden City
+[10-02 11:58] CLOUD BUILD START: 334 targets, 39 built, 264 to attempt, budget 18000s
+[10-02 11:58] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[10-02 15:13] CRAWL_FAIL   Cabot Links
+[10-02 15:13] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[10-02 17:14] CRAWL_FAIL   Camargo
+[10-02 17:14] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[10-02 17:14] RUN DONE: +0 built, 4 failed this run. Total terrain courses now: 19
