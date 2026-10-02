@@ -95,3 +95,13 @@
 [10-01 18:21] CRAWL_FAIL   Garden City
 [10-01 18:22] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
 [10-01 18:22] RUN DONE: +0 built, 5 failed this run. Total terrain courses now: 18
+[10-01 22:24] CLOUD BUILD START: 334 targets, 38 built, 265 to attempt, budget 18000s
+[10-01 22:24] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[10-02 01:12] CRAWL_FAIL   Cabot Links
+[10-02 01:13] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[10-02 01:28] CRAWL_FAIL   Camargo
+[10-02 01:58] CRAWL_FAIL   Garden City
+[10-02 02:20] BUILT        Inverness Club  [parkland]  (best-effort)
+[10-02 03:39] CRAWL_FAIL   Jasper Park Lodge
+[10-02 03:40] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
+[10-02 03:40] RUN DONE: +1 built, 6 failed this run. Total terrain courses now: 19

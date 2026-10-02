@@ -308,5 +308,14 @@
  },
  "Garden City": {
   "status": "CRAWL_FAIL"
+ },
+ "Inverness Club": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort",
+  "rv": 3
+ },
+ "Jasper Park Lodge": {
+  "status": "CRAWL_FAIL"
  }
 }
