@@ -256,7 +256,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "CRAWL_FAIL"
+  "status": "LOCATE_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -316,6 +316,30 @@
   "rv": 3
  },
  "Jasper Park Lodge": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Lofoten Links": {
   "status": "CRAWL_FAIL"
+ },
+ "Los Angeles Country Club (North)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "best_effort",
+  "rv": 3
+ },
+ "Machrihanish": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Maidstone": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }

@@ -1,0 +1,162 @@
+{
+ "course": "Jasper Park Lodge",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 4,
+   "length": 367.1
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 4,
+   "length": 461.7
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 4,
+   "length": 411.6
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 3,
+   "length": 223.7
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 4,
+   "length": 443.5
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 4,
+   "length": 384.7
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 3,
+   "length": 152.5
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 4,
+   "length": 422.0
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 3,
+   "length": 218.2
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 5,
+   "length": 488.4
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 4,
+   "length": 389.4
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 184.0
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 5,
+   "length": 606.2
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 358.5
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 3,
+   "length": 122.1
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 4,
+   "length": 351.0
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 4,
+   "length": 344.6
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 4,
+   "length": 431.6
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 2.9,
+  "wind_dir_deg": 189,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "grassRough": [
+   0.18,
+   0.38,
+   0.12
+  ],
+  "rock": [
+   0.34,
+   0.34,
+   0.33
+  ],
+  "deep": 1192007,
+  "shallow": 3833762,
+  "fairway": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "rough": [
+   0.18,
+   0.38,
+   0.12
+  ]
+ },
+ "tree_profile": [
+  0.3,
+  0.6,
+  0.02,
+  0.08,
+  0.0
+ ],
+ "backdrop": {
+  "type": "forest",
+  "height": 130,
+  "snow": false
+ },
+ "links": false
+}
