@@ -140,3 +140,16 @@
 [11-01 10:00] BUILT        Maidstone  [parkland]  (PASS)
 [11-01 10:01] TIME BUDGET HIT — stopping cleanly at +4 built this run (resumes next run)
 [11-01 10:01] RUN DONE: +4 built, 6 failed this run. Total terrain courses now: 23
+[11-01 12:45] CLOUD BUILD START: 334 targets, 43 built, 260 to attempt, budget 18000s
+[11-01 12:45] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-01 14:46] CRAWL_FAIL   Cabot Links
+[11-01 14:46] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[11-01 15:10] CRAWL_FAIL   Camargo
+[11-01 15:19] CRAWL_FAIL   Garden City
+[11-01 16:21] CRAWL_FAIL   Lofoten Links
+[11-01 16:28] BUILT        Myopia Hunt Club  [parkland]  (PASS)
+[11-01 16:40] BUILT        Naruo  [parkland]  (PASS)
+[11-01 16:54] BUILT        National Golf Links of America  [links]  (PASS)
+[11-01 17:47] CRAWL_FAIL   Oak Hill (East)
+[11-01 17:47] TIME BUDGET HIT — stopping cleanly at +3 built this run (resumes next run)
+[11-01 17:47] RUN DONE: +3 built, 7 failed this run. Total terrain courses now: 26

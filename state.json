@@ -256,7 +256,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "LOCATE_FAIL"
+  "status": "CRAWL_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -341,5 +341,26 @@
   "cat": "parkland",
   "audit": "pass",
   "rv": 3
+ },
+ "Myopia Hunt Club": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Naruo": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "National Golf Links of America": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Oak Hill (East)": {
+  "status": "CRAWL_FAIL"
  }
 }
