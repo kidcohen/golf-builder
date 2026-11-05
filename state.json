@@ -256,7 +256,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "LOCATE_FAIL"
+  "status": "CRAWL_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
