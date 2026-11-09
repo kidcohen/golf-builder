@@ -332,3 +332,10 @@
 [11-08 16:30] CRAWL_FAIL   Camargo
 [11-08 16:41] CRAWL_FAIL   Garden City
 [11-08 17:40] CRAWL_FAIL   Lofoten Links
+[11-08 21:44] CLOUD BUILD START: 334 targets, 47 built, 256 to attempt, budget 18000s
+[11-08 21:44] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-09 01:06] CRAWL_FAIL   Cabot Links
+[11-09 01:06] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[11-09 01:16] CRAWL_FAIL   Camargo
+[11-09 01:25] CRAWL_FAIL   Garden City
+[11-09 02:29] CRAWL_FAIL   Lofoten Links
