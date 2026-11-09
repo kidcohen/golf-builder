@@ -339,3 +339,13 @@
 [11-09 01:16] CRAWL_FAIL   Camargo
 [11-09 01:25] CRAWL_FAIL   Garden City
 [11-09 02:29] CRAWL_FAIL   Lofoten Links
+[11-09 04:53] CLOUD BUILD START: 334 targets, 47 built, 256 to attempt, budget 18000s
+[11-09 04:53] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-09 07:30] CRAWL_FAIL   Cabot Links
+[11-09 07:31] LOCATE_FAIL  Cabot Saint Lucia (Point Hardy)
+[11-09 07:31] LOCATE_FAIL  Camargo
+[11-09 07:40] CRAWL_FAIL   Garden City
+[11-09 09:04] CRAWL_FAIL   Lofoten Links
+[11-09 09:53] CRAWL_FAIL   Oak Hill (East)
+[11-09 09:53] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[11-09 09:53] RUN DONE: +0 built, 7 failed this run. Total terrain courses now: 27
