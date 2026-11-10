@@ -247,7 +247,10 @@
   "status": "CRAWL_FAIL"
  },
  "Cabot Saint Lucia (Point Hardy)": {
-  "status": "LOCATE_FAIL"
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
  },
  "California Golf Club of San Francisco": {
   "status": "BUILT",
