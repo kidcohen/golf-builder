@@ -244,7 +244,10 @@
   "rv": 3
  },
  "Cabot Links": {
-  "status": "CRAWL_FAIL"
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
  },
  "Cabot Saint Lucia (Point Hardy)": {
   "status": "BUILT",

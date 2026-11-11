@@ -382,3 +382,13 @@
 [11-11 04:22] CRAWL_FAIL   Lofoten Links
 [11-11 04:22] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
 [11-11 04:22] RUN DONE: +0 built, 5 failed this run. Total terrain courses now: 28
+[11-11 04:55] CLOUD BUILD START: 334 targets, 48 built, 255 to attempt, budget 18000s
+[11-11 04:55] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-11 05:14] BUILT        Cabot Links  [links]  (PASS)
+[11-11 05:21] CRAWL_FAIL   Camargo
+[11-11 05:30] CRAWL_FAIL   Garden City
+[11-11 06:43] CRAWL_FAIL   Lofoten Links
+[11-11 07:51] CRAWL_FAIL   Oak Hill (East)
+[11-11 09:59] CRAWL_FAIL   Old Town Club
+[11-11 09:59] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
+[11-11 09:59] RUN DONE: +1 built, 6 failed this run. Total terrain courses now: 29
