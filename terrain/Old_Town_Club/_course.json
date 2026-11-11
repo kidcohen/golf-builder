@@ -1,0 +1,162 @@
+{
+ "course": "Old Town Club",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 4,
+   "length": 422.8
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 3,
+   "length": 162.8
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 4,
+   "length": 425.7
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 5,
+   "length": 527.2
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 4,
+   "length": 398.0
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 3,
+   "length": 185.5
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 4,
+   "length": 443.1
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 4,
+   "length": 412.0
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 4,
+   "length": 453.7
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 4,
+   "length": 407.7
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 3,
+   "length": 216.2
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 4,
+   "length": 449.8
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 4,
+   "length": 451.2
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 332.9
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 4,
+   "length": 251.6
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 4,
+   "length": 363.7
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 5,
+   "length": 614.1
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 4,
+   "length": 447.9
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 0.8,
+  "wind_dir_deg": 44,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "grassRough": [
+   0.18,
+   0.38,
+   0.12
+  ],
+  "rock": [
+   0.34,
+   0.34,
+   0.33
+  ],
+  "deep": 1192007,
+  "shallow": 3833762,
+  "fairway": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "rough": [
+   0.18,
+   0.38,
+   0.12
+  ]
+ },
+ "tree_profile": [
+  0.3,
+  0.6,
+  0.02,
+  0.08,
+  0.0
+ ],
+ "backdrop": {
+  "type": "forest",
+  "height": 130,
+  "snow": false
+ },
+ "links": false
+}

@@ -392,3 +392,10 @@
 [11-11 09:59] CRAWL_FAIL   Old Town Club
 [11-11 09:59] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
 [11-11 09:59] RUN DONE: +1 built, 6 failed this run. Total terrain courses now: 29
+[11-11 13:40] CLOUD BUILD START: 334 targets, 49 built, 254 to attempt, budget 18000s
+[11-11 13:40] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-11 13:40] LOCATE_FAIL  Camargo
+[11-11 13:48] CRAWL_FAIL   Garden City
+[11-11 14:17] CRAWL_FAIL   Lofoten Links
+[11-11 15:12] CRAWL_FAIL   Oak Hill (East)
+[11-11 15:17] BUILT        Old Town Club  [parkland]  (PASS)

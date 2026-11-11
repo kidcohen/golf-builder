@@ -262,7 +262,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "CRAWL_FAIL"
+  "status": "LOCATE_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -370,7 +370,10 @@
   "status": "CRAWL_FAIL"
  },
  "Old Town Club": {
-  "status": "CRAWL_FAIL"
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  },
  "Pacific Dunes": {
   "status": "BUILT",
