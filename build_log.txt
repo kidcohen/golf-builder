@@ -399,3 +399,9 @@
 [11-11 14:17] CRAWL_FAIL   Lofoten Links
 [11-11 15:12] CRAWL_FAIL   Oak Hill (East)
 [11-11 15:17] BUILT        Old Town Club  [parkland]  (PASS)
+[11-12 00:07] CLOUD BUILD START: 334 targets, 50 built, 253 to attempt, budget 18000s
+[11-12 00:07] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-12 00:19] CRAWL_FAIL   Camargo
+[11-12 00:29] CRAWL_FAIL   Garden City
+[11-12 01:48] CRAWL_FAIL   Lofoten Links
+[11-12 02:17] CRAWL_FAIL   Oak Hill (East)
