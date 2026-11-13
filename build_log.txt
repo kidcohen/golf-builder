@@ -411,3 +411,9 @@
 [11-12 15:07] CRAWL_FAIL   Garden City
 [11-12 15:40] CRAWL_FAIL   Lofoten Links
 [11-12 16:24] CRAWL_FAIL   Oak Hill (East)
+[11-12 23:16] CLOUD BUILD START: 334 targets, 50 built, 253 to attempt, budget 18000s
+[11-12 23:16] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-12 23:16] LOCATE_FAIL  Camargo
+[11-12 23:33] CRAWL_FAIL   Garden City
+[11-13 00:52] CRAWL_FAIL   Lofoten Links
+[11-13 01:32] CRAWL_FAIL   Oak Hill (East)
