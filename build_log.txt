@@ -423,3 +423,21 @@
 [11-13 05:44] CRAWL_FAIL   Garden City
 [11-13 06:31] CRAWL_FAIL   Lofoten Links
 [11-13 07:32] CRAWL_FAIL   Oak Hill (East)
+[11-13 14:00] CLOUD BUILD START: 334 targets, 50 built, 253 to attempt, budget 18000s
+[11-13 14:00] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-13 14:01] LOCATE_FAIL  Camargo
+[11-13 14:08] CRAWL_FAIL   Garden City
+[11-13 14:45] CRAWL_FAIL   Lofoten Links
+[11-13 15:39] CRAWL_FAIL   Oak Hill (East)
+[11-13 16:19] BUILT        Paraparaumu Beach  [links]  (PASS)
+[11-13 16:25] BUILT        Peachtree  [parkland]  (PASS)
+[11-13 16:47] CRAWL_FAIL   Pinehurst No. 2
+[11-13 17:50] CRAWL_FAIL   Prairie Dunes
+[11-13 17:50] LOCATE_FAIL  Real Club Valderrama
+[11-13 17:50] LOCATE_FAIL  Rock Creek Cattle Company
+[11-13 18:09] BUILT        Royal Aberdeen (Balgownie)  [links]  (PASS)
+[11-13 18:36] BUILT        Royal Cinque Ports  [parkland]  (PASS)
+[11-13 18:53] BUILT        Royal Liverpool  [parkland]  (PASS)
+[11-13 19:03] BUILT        Royal Porthcawl  [links]  (PASS)
+[11-13 19:03] TIME BUDGET HIT — stopping cleanly at +6 built this run (resumes next run)
+[11-13 19:03] RUN DONE: +6 built, 9 failed this run. Total terrain courses now: 36

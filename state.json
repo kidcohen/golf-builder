@@ -262,7 +262,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "CRAWL_FAIL"
+  "status": "LOCATE_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -376,6 +376,54 @@
   "rv": 3
  },
  "Pacific Dunes": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Paraparaumu Beach": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Peachtree": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Pinehurst No. 2": {
+  "status": "CRAWL_FAIL"
+ },
+ "Prairie Dunes": {
+  "status": "CRAWL_FAIL"
+ },
+ "Real Club Valderrama": {
+  "status": "LOCATE_FAIL"
+ },
+ "Rock Creek Cattle Company": {
+  "status": "LOCATE_FAIL"
+ },
+ "Royal Aberdeen (Balgownie)": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Royal Cinque Ports": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Royal Liverpool": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Royal Porthcawl": {
   "status": "BUILT",
   "cat": "links",
   "audit": "pass",
