@@ -262,7 +262,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "LOCATE_FAIL"
+  "status": "CRAWL_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -448,6 +448,21 @@
   "rv": 3
  },
  "Shanqin Bay": {
+  "status": "CRAWL_FAIL"
+ },
+ "Shinnecock Hills": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Shoreacres": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Sleepy Hollow": {
   "status": "CRAWL_FAIL"
  }
 }

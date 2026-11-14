@@ -1,0 +1,162 @@
+{
+ "course": "Shoreacres",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 5,
+   "length": 511.0
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 4,
+   "length": 319.6
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 4,
+   "length": 316.4
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 4,
+   "length": 392.9
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 5,
+   "length": 490.7
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 3,
+   "length": 205.6
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 5,
+   "length": 487.3
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 3,
+   "length": 200.6
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 4,
+   "length": 395.9
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 4,
+   "length": 463.6
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 4,
+   "length": 375.6
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 135.9
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 4,
+   "length": 330.0
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 3,
+   "length": 217.1
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 5,
+   "length": 530.2
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 4,
+   "length": 460.7
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 4,
+   "length": 355.6
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 5,
+   "length": 559.0
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 7.0,
+  "wind_dir_deg": 270,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "grassRough": [
+   0.56,
+   0.47,
+   0.22
+  ],
+  "rock": [
+   0.34,
+   0.35,
+   0.36
+  ],
+  "deep": 860984,
+  "shallow": 4164256,
+  "fairway": [
+   0.44,
+   0.6,
+   0.22
+  ],
+  "rough": [
+   0.56,
+   0.47,
+   0.22
+  ]
+ },
+ "tree_profile": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "backdrop": {
+  "type": "flat",
+  "height": 30,
+  "snow": false
+ },
+ "links": true
+}
