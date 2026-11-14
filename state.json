@@ -428,5 +428,17 @@
   "cat": "links",
   "audit": "pass",
   "rv": 3
+ },
+ "Rye (Old)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "San Francisco Golf Club": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }
