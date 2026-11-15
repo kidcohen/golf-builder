@@ -262,7 +262,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "CRAWL_FAIL"
+  "status": "LOCATE_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -464,5 +464,11 @@
  },
  "Sleepy Hollow": {
   "status": "CRAWL_FAIL"
+ },
+ "Somerset Hills": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }

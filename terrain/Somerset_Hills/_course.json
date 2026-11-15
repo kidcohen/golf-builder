@@ -1,0 +1,162 @@
+{
+ "course": "Somerset Hills",
+ "source": "openstreetmap",
+ "holes": [
+  {
+   "hole": 1,
+   "stem": "hole_01",
+   "par": 4,
+   "length": 457.7
+  },
+  {
+   "hole": 2,
+   "stem": "hole_02",
+   "par": 3,
+   "length": 206.8
+  },
+  {
+   "hole": 3,
+   "stem": "hole_03",
+   "par": 4,
+   "length": 371.8
+  },
+  {
+   "hole": 4,
+   "stem": "hole_04",
+   "par": 4,
+   "length": 456.3
+  },
+  {
+   "hole": 5,
+   "stem": "hole_05",
+   "par": 4,
+   "length": 347.1
+  },
+  {
+   "hole": 6,
+   "stem": "hole_06",
+   "par": 5,
+   "length": 483.1
+  },
+  {
+   "hole": 7,
+   "stem": "hole_07",
+   "par": 5,
+   "length": 490.3
+  },
+  {
+   "hole": 8,
+   "stem": "hole_08",
+   "par": 3,
+   "length": 231.4
+  },
+  {
+   "hole": 9,
+   "stem": "hole_09",
+   "par": 5,
+   "length": 535.9
+  },
+  {
+   "hole": 10,
+   "stem": "hole_10",
+   "par": 5,
+   "length": 491.1
+  },
+  {
+   "hole": 11,
+   "stem": "hole_11",
+   "par": 4,
+   "length": 413.5
+  },
+  {
+   "hole": 12,
+   "stem": "hole_12",
+   "par": 3,
+   "length": 153.5
+  },
+  {
+   "hole": 13,
+   "stem": "hole_13",
+   "par": 4,
+   "length": 411.9
+  },
+  {
+   "hole": 14,
+   "stem": "hole_14",
+   "par": 4,
+   "length": 421.8
+  },
+  {
+   "hole": 15,
+   "stem": "hole_15",
+   "par": 4,
+   "length": 402.5
+  },
+  {
+   "hole": 16,
+   "stem": "hole_16",
+   "par": 3,
+   "length": 163.3
+  },
+  {
+   "hole": 17,
+   "stem": "hole_17",
+   "par": 4,
+   "length": 368.8
+  },
+  {
+   "hole": 18,
+   "stem": "hole_18",
+   "par": 4,
+   "length": 338.9
+  }
+ ],
+ "weather": {
+  "wind_speed_mph": 11.4,
+  "wind_dir_deg": 331,
+  "rain": 0.0,
+  "wetness": 0.0
+ },
+ "palette": {
+  "grassFair": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "grassRough": [
+   0.18,
+   0.38,
+   0.12
+  ],
+  "rock": [
+   0.34,
+   0.34,
+   0.33
+  ],
+  "deep": 1192007,
+  "shallow": 3833762,
+  "fairway": [
+   0.28,
+   0.55,
+   0.15
+  ],
+  "rough": [
+   0.18,
+   0.38,
+   0.12
+  ]
+ },
+ "tree_profile": [
+  0.3,
+  0.6,
+  0.02,
+  0.08,
+  0.0
+ ],
+ "backdrop": {
+  "type": "forest",
+  "height": 130,
+  "snow": false
+ },
+ "links": false
+}
