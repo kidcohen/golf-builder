@@ -262,7 +262,7 @@
   "rv": 3
  },
  "Camargo": {
-  "status": "LOCATE_FAIL"
+  "status": "CRAWL_FAIL"
  },
  "CapRock Ranch": {
   "status": "BUILT",
@@ -470,5 +470,26 @@
   "cat": "parkland",
   "audit": "pass",
   "rv": 3
+ },
+ "South Cape Owners Club": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "St Enodoc (Church)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "St George's Golf & Country Club (Ontario)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "The Lido (Sand Valley)": {
+  "status": "LOCATE_FAIL"
  }
 }
