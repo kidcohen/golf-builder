@@ -599,3 +599,16 @@
 [11-18 04:55] CRAWL_FAIL   Prairie Dunes
 [11-18 04:55] LOCATE_FAIL  Real Club Valderrama
 [11-18 04:55] LOCATE_FAIL  Rock Creek Cattle Company
+[11-18 15:13] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
+[11-18 15:14] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-18 15:24] CRAWL_FAIL   Camargo
+[11-18 15:33] CRAWL_FAIL   Garden City
+[11-18 16:11] CRAWL_FAIL   Lofoten Links
+[11-18 16:22] CRAWL_FAIL   Oak Hill (East)
+[11-18 16:37] CRAWL_FAIL   Pinehurst No. 2
+[11-18 17:46] CRAWL_FAIL   Prairie Dunes
+[11-18 17:46] LOCATE_FAIL  Real Club Valderrama
+[11-18 17:47] LOCATE_FAIL  Rock Creek Cattle Company
+[11-18 18:17] CRAWL_FAIL   Shanqin Bay
+[11-18 19:09] CRAWL_FAIL   Sleepy Hollow
+[11-18 19:09] LOCATE_FAIL  The Lido (Sand Valley)
