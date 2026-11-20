@@ -654,3 +654,16 @@
 [11-20 11:04] CRAWL_FAIL   Sleepy Hollow
 [11-20 11:04] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
 [11-20 11:04] RUN DONE: +0 built, 11 failed this run. Total terrain courses now: 45
+[11-20 14:59] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
+[11-20 14:59] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-20 15:09] CRAWL_FAIL   Camargo
+[11-20 15:18] CRAWL_FAIL   Garden City
+[11-20 16:01] CRAWL_FAIL   Lofoten Links
+[11-20 17:18] CRAWL_FAIL   Oak Hill (East)
+[11-20 17:28] CRAWL_FAIL   Pinehurst No. 2
+[11-20 17:49] CRAWL_FAIL   Prairie Dunes
+[11-20 17:49] LOCATE_FAIL  Real Club Valderrama
+[11-20 17:49] LOCATE_FAIL  Rock Creek Cattle Company
+[11-20 18:35] CRAWL_FAIL   Shanqin Bay
+[11-20 19:42] CRAWL_FAIL   Sleepy Hollow
+[11-20 19:42] LOCATE_FAIL  The Lido (Sand Valley)
