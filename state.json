@@ -491,5 +491,8 @@
  },
  "The Lido (Sand Valley)": {
   "status": "LOCATE_FAIL"
+ },
+ "Trump International Golf Links (Old)": {
+  "status": "CRAWL_FAIL"
  }
 }
