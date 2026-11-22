@@ -721,3 +721,16 @@
 [11-22 04:09] CRAWL_FAIL   Shanqin Bay
 [11-22 04:09] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
 [11-22 04:09] RUN DONE: +0 built, 10 failed this run. Total terrain courses now: 45
+[11-22 05:22] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
+[11-22 05:22] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-22 05:33] CRAWL_FAIL   Camargo
+[11-22 05:44] CRAWL_FAIL   Garden City
+[11-22 07:07] CRAWL_FAIL   Lofoten Links
+[11-22 08:23] CRAWL_FAIL   Oak Hill (East)
+[11-22 08:33] CRAWL_FAIL   Pinehurst No. 2
+[11-22 09:07] CRAWL_FAIL   Prairie Dunes
+[11-22 09:07] LOCATE_FAIL  Real Club Valderrama
+[11-22 09:08] LOCATE_FAIL  Rock Creek Cattle Company
+[11-22 10:24] CRAWL_FAIL   Shanqin Bay
+[11-22 10:24] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[11-22 10:24] RUN DONE: +0 built, 10 failed this run. Total terrain courses now: 45
