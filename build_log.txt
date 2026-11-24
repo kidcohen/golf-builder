@@ -779,3 +779,6 @@
 [11-23 21:34] CRAWL_FAIL   Shanqin Bay
 [11-23 22:26] CRAWL_FAIL   Sleepy Hollow
 [11-23 22:26] LOCATE_FAIL  The Lido (Sand Valley)
+[11-24 03:52] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
+[11-24 03:52] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-24 06:38] CRAWL_FAIL   Camargo
