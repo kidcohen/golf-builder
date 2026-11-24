@@ -782,3 +782,19 @@
 [11-24 03:52] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
 [11-24 03:52] LOCATE_FAIL  St Patrick's Links (Rosapenna)
 [11-24 06:38] CRAWL_FAIL   Camargo
+[11-24 17:02] CLOUD BUILD START: 334 targets, 65 built, 237 to attempt, budget 18000s
+[11-24 17:02] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-24 17:13] CRAWL_FAIL   Camargo
+[11-24 17:21] CRAWL_FAIL   Garden City
+[11-24 18:03] CRAWL_FAIL   Lofoten Links
+[11-24 18:43] CRAWL_FAIL   Oak Hill (East)
+[11-24 18:51] CRAWL_FAIL   Pinehurst No. 2
+[11-24 19:35] CRAWL_FAIL   Prairie Dunes
+[11-24 19:35] LOCATE_FAIL  Real Club Valderrama
+[11-24 19:35] LOCATE_FAIL  Rock Creek Cattle Company
+[11-24 19:59] CRAWL_FAIL   Shanqin Bay
+[11-24 20:47] CRAWL_FAIL   Sleepy Hollow
+[11-24 20:48] LOCATE_FAIL  The Lido (Sand Valley)
+[11-24 22:28] CRAWL_FAIL   Trump International Golf Links (Old)
+[11-24 22:29] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[11-24 22:29] RUN DONE: +0 built, 13 failed this run. Total terrain courses now: 45
