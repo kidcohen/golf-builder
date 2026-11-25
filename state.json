@@ -494,5 +494,11 @@
  },
  "Trump International Golf Links (Old)": {
   "status": "CRAWL_FAIL"
+ },
+ "Victoria (Australia)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }
