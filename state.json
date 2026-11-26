@@ -500,5 +500,29 @@
   "cat": "parkland",
   "audit": "pass",
   "rv": 3
+ },
+ "Woodhall Spa (Hotchkin)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Yas Links": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Adare Manor": {
+  "status": "BUILT",
+  "cat": "links",
+  "audit": "pass",
+  "rv": 3
+ },
+ "Baltusrol (Lower)": {
+  "status": "BUILT",
+  "cat": "parkland",
+  "audit": "pass",
+  "rv": 3
  }
 }
