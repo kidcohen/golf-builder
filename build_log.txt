@@ -825,3 +825,17 @@
 [11-25 21:59] BUILT        Victoria (Australia)  [parkland]  (PASS)
 [11-25 21:59] TIME BUDGET HIT — stopping cleanly at +1 built this run (resumes next run)
 [11-25 21:59] RUN DONE: +1 built, 13 failed this run. Total terrain courses now: 46
+[11-26 01:39] CLOUD BUILD START: 334 targets, 66 built, 236 to attempt, budget 18000s
+[11-26 01:39] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-26 01:39] LOCATE_FAIL  Camargo
+[11-26 01:48] CRAWL_FAIL   Garden City
+[11-26 03:01] CRAWL_FAIL   Lofoten Links
+[11-26 04:15] CRAWL_FAIL   Oak Hill (East)
+[11-26 04:24] CRAWL_FAIL   Pinehurst No. 2
+[11-26 05:18] CRAWL_FAIL   Prairie Dunes
+[11-26 05:18] LOCATE_FAIL  Real Club Valderrama
+[11-26 05:19] LOCATE_FAIL  Rock Creek Cattle Company
+[11-26 06:06] CRAWL_FAIL   Shanqin Bay
+[11-26 06:43] CRAWL_FAIL   Sleepy Hollow
+[11-26 06:43] TIME BUDGET HIT — stopping cleanly at +0 built this run (resumes next run)
+[11-26 06:43] RUN DONE: +0 built, 11 failed this run. Total terrain courses now: 46
