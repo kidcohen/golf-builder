@@ -859,3 +859,14 @@
 [11-26 21:33] BUILT        Baltusrol (Lower)  [parkland]  (PASS)
 [11-26 21:33] TIME BUDGET HIT — stopping cleanly at +4 built this run (resumes next run)
 [11-26 21:33] RUN DONE: +4 built, 13 failed this run. Total terrain courses now: 50
+[11-27 01:33] CLOUD BUILD START: 334 targets, 70 built, 232 to attempt, budget 18000s
+[11-27 01:33] LOCATE_FAIL  St Patrick's Links (Rosapenna)
+[11-27 01:33] LOCATE_FAIL  Camargo
+[11-27 01:43] CRAWL_FAIL   Garden City
+[11-27 03:08] CRAWL_FAIL   Lofoten Links
+[11-27 04:03] CRAWL_FAIL   Oak Hill (East)
+[11-27 04:12] CRAWL_FAIL   Pinehurst No. 2
+[11-27 05:19] CRAWL_FAIL   Prairie Dunes
+[11-27 05:19] LOCATE_FAIL  Real Club Valderrama
+[11-27 05:19] LOCATE_FAIL  Rock Creek Cattle Company
+[11-27 06:21] CRAWL_FAIL   Shanqin Bay
